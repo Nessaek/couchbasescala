@@ -6,8 +6,6 @@ version := "0.1"
 
 scalaVersion := "2.12.2"
 
-resolvers += Resolver.jcenterRepo
-
 libraryDependencies ++= {
   val AkkaVersion = "2.4.18"
   val AkkaHttpVersion = "10.0.6"
@@ -20,10 +18,10 @@ libraryDependencies ++= {
     "org.json4s"        %% "json4s-ext"      % Json4sVersion,
     "de.heikoseeberger" %% "akka-http-json4s" % "1.16.0",
     "de.heikoseeberger" %% "akka-http-jackson" % "1.18.0",
-    "org.reactivecouchbase" %% "reactivecouchbase-rs-core" % "1.2.1",
     "ch.qos.logback" % "logback-classic" % "1.2.3",
     "com.typesafe.scala-logging" %% "scala-logging" % "3.9.0",
-    "com.typesafe.akka" %% "akka-http-spray-json" % "10.1.1"
+    "com.typesafe.akka" %% "akka-http-spray-json" % "10.1.1",
+    "org.reactivecouchbase" %% "reactivecouchbase-rs-core" % "1.2.1"
 
   )
 }

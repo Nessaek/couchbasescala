@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20180413132039"/>
+		date="20180418102033"/>
 	<dependencies>
 		<module organisation="org.json4s" name="json4s-ext_2.12">
 			<revision name="3.5.2" status="release" pubdate="20170504213337" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="55">
@@ -207,7 +207,7 @@
 				<metadata-artifact status="no" details="" size="3404" time="0" location="/Users/nke09/.ivy2/cache/com.typesafe.akka/akka-http-spray-json_2.12/ivy-10.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.12/10.1.1/akka-http-spray-json_2.12-10.1.1.pom"/>
 				<caller organisation="default" name="couchbasescala$sources" conf="compile" rev="10.1.1" rev-constraint-default="10.1.1" rev-constraint-dynamic="10.1.1" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka-http/current/"/>
 				<artifacts>
-					<artifact name="akka-http-spray-json_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3813" time="110" location="/Users/nke09/.ivy2/cache/com.typesafe.akka/akka-http-spray-json_2.12/srcs/akka-http-spray-json_2.12-10.1.1-sources.jar">
+					<artifact name="akka-http-spray-json_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3813" time="0" location="/Users/nke09/.ivy2/cache/com.typesafe.akka/akka-http-spray-json_2.12/srcs/akka-http-spray-json_2.12-10.1.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.12/10.1.1/akka-http-spray-json_2.12-10.1.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -219,7 +219,7 @@
 				<metadata-artifact status="no" details="" size="3108" time="0" location="/Users/nke09/.ivy2/cache/com.typesafe.akka/akka-http_2.12/ivy-10.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.1.1/akka-http_2.12-10.1.1.pom"/>
 				<caller organisation="default" name="couchbasescala$sources" conf="compile" rev="10.1.1" rev-constraint-default="10.1.1" rev-constraint-dynamic="10.1.1" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka-http/current/"/>
 				<artifacts>
-					<artifact name="akka-http_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="200470" time="126" location="/Users/nke09/.ivy2/cache/com.typesafe.akka/akka-http_2.12/srcs/akka-http_2.12-10.1.1-sources.jar">
+					<artifact name="akka-http_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="200470" time="0" location="/Users/nke09/.ivy2/cache/com.typesafe.akka/akka-http_2.12/srcs/akka-http_2.12-10.1.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.1.1/akka-http_2.12-10.1.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -231,7 +231,7 @@
 				<metadata-artifact status="no" details="" size="3735" time="0" location="/Users/nke09/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/ivy-10.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.1/akka-http-core_2.12-10.1.1.pom"/>
 				<caller organisation="default" name="couchbasescala$sources" conf="compile" rev="10.1.1" rev-constraint-default="10.1.1" rev-constraint-dynamic="10.1.1" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka-http/current/"/>
 				<artifacts>
-					<artifact name="akka-http-core_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="413652" time="164" location="/Users/nke09/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/srcs/akka-http-core_2.12-10.1.1-sources.jar">
+					<artifact name="akka-http-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="413652" time="0" location="/Users/nke09/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/srcs/akka-http-core_2.12-10.1.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.1/akka-http-core_2.12-10.1.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -243,7 +243,7 @@
 				<metadata-artifact status="no" details="" size="3081" time="0" location="/Users/nke09/.ivy2/cache/io.spray/spray-json_2.12/ivy-1.3.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.4/spray-json_2.12-1.3.4.pom"/>
 				<caller organisation="default" name="couchbasescala$sources" conf="compile" rev="1.3.4" rev-constraint-default="1.3.4" rev-constraint-dynamic="1.3.4" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="spray-json_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="23747" time="117" location="/Users/nke09/.ivy2/cache/io.spray/spray-json_2.12/srcs/spray-json_2.12-1.3.4-sources.jar">
+					<artifact name="spray-json_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="23747" time="0" location="/Users/nke09/.ivy2/cache/io.spray/spray-json_2.12/srcs/spray-json_2.12-1.3.4-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.4/spray-json_2.12-1.3.4-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -255,7 +255,7 @@
 				<metadata-artifact status="no" details="" size="3111" time="0" location="/Users/nke09/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/ivy-10.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.1/akka-parsing_2.12-10.1.1.pom"/>
 				<caller organisation="default" name="couchbasescala$sources" conf="compile" rev="10.1.1" rev-constraint-default="10.1.1" rev-constraint-dynamic="10.1.1" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka-http/current/"/>
 				<artifacts>
-					<artifact name="akka-parsing_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="63743" time="136" location="/Users/nke09/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/srcs/akka-parsing_2.12-10.1.1-sources.jar">
+					<artifact name="akka-parsing_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="63743" time="0" location="/Users/nke09/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/srcs/akka-parsing_2.12-10.1.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.1/akka-parsing_2.12-10.1.1-sources.jar"/>
 					</artifact>
 				</artifacts>
