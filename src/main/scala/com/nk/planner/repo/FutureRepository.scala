@@ -33,19 +33,16 @@ class FutureRepository {
   //Future option with Int
   def findIndexInList(list:List[String],key:String): Future[Option[Int]] = Future{
     val result = list.indexOf(key)
-    println(s"$key is at index $result")
     if(result != -1) Some(result) else None
   }
 
   //Boolean Future
   def userHasChosen(choice:Int): Future[Boolean] = Future {
-    println("2 second")
     Thread.sleep(2000)
     if(choice > 0) true else false
   }
 
   def printStatement(): Future[Unit] = Future{
-    println("1 second")
     Thread.sleep(1000)
   }
 

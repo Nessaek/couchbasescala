@@ -3,45 +3,33 @@ package com.nk.planner.routes
 
 import akka.http.scaladsl.model.{ContentTypes, HttpEntity, HttpResponse, StatusCodes}
 import akka.http.scaladsl.server.Directives
-import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
-import akka.http.scaladsl.marshalling.ToResponseMarshallable
+import org.reactivecouchbase.rs.scaladsl.json._
+import org.reactivecouchbase.rs.scaladsl.circejson._
 import com.nk.planner.repo.{CouchDriver, CouchbaseRepository, FutureRepository, PlannerRepository}
 import spray.json._
 import com.nk.planner.model.Activity
+import play.api.libs.json.Json
 
-import scala.concurrent.ExecutionContext.Implicits.global
+import io.circe._, io.circe.generic.auto._, io.circe.parser._, io.circe.syntax._
+
+
 import scala.util.{Failure, Success}
 
-trait JsonSupport extends SprayJsonSupport with DefaultJsonProtocol {
-  implicit val itemFormat = jsonFormat2(Activity)
-}
+import akka.actor.ActorSystem
+import akka.stream.ActorMaterializer
 
-class PlannerRoute extends Directives with JsonSupport {
+
+
+
+
+class PlannerRoute extends Directives {
 
   val future: FutureRepository = new FutureRepository
   val repository: PlannerRepository = new PlannerRepository
   val couchbaseRepository: CouchbaseRepository = new CouchbaseRepository
-
-  val input =
-    """{"uid":1,"txt":"#Akka rocks!"}""" + "\n" +
-      """{"uid":2,"txt":"Streaming is so hot right now!"}""" + "\n" +
-      """{"uid":3,"txt":"You cannot enter the same river twice."}"""
-
-  val number: Option[Int] = None
-  val activities = List("cycling", "pubbing", "walking", "eating")
-  val costs = List(1, 5, 2)
-  val tuplesList = List(("Running", 5, 2.50), ("Swimming", 10, 3.50))
-  val map = Map("sport" -> "cycling", "music" -> "keyboard", "tv" -> "crazy ex-girlfriend")
-
-  val futureOperationsList = List(future.findKeyInList(activities, "test"),
-    future.findKeyInList(activities, "test1"),
-    future.findKeyInList(activities, "test2")
-  )
-  val futureOperationsIntList = List(future.findIndexInList(activities, "test"),
-    future.findIndexInList(activities, "test1"),
-    future.findIndexInList(activities, "test2")
-  )
-
+  implicit val system       = ActorSystem("ReactiveCouchbaseSystem")
+  implicit val materializer = ActorMaterializer.create(system)
+  implicit val ec           = system.dispatcher
 
   val plannerRoute = {
     pathPrefix("planner") {
@@ -50,111 +38,60 @@ class PlannerRoute extends Directives with JsonSupport {
           complete {
             HttpResponse(200, entity = repository.introMessage(repository.callback))
 
-            //example - returning text as json
-            //            HttpResponse(entity = HttpEntity(ContentTypes.`application/json`, input))
-
           }
         }
       } ~
-        path("activities") {
-          get {
-            complete {
-              HttpResponse(200, entity = repository.listAllActivities(activities))
+        pathPrefix("get") {
 
-            }
-          }
-        } ~
-        path("all") {
-          get {
-            onComplete(future.addStuff(1, 2).flatMap(result => future.minusStuff(result, 2))) {
-              case Success(result) => complete(s"you have $result")
+          {
+            onComplete(couchbaseRepository.findAll) {
+              case Success(result) => complete(s"$result")
               case Failure(e) => complete(StatusCodes.InternalServerError)
-
-              //     get {
-              //         complete(
-              //         Activity("activity", "area")
-              // couchbaseRepository.findAll
-              //                            map(v => {
-              //                            HttpResponse(200, entity = HttpEntity(ContentTypes.`application/json`, v))
-              //                          })
-              //           )
-
             }
           }
-          //}
-        } ~
-        path("activity") {
-          get {
-            complete {
-              //Example - returning Item as Json
-              Activity("activity", "area")
+            path(Segment) { id =>
+              onComplete(couchbaseRepository.findOne(id)) {
+                  case Success(result) =>
+                    complete( HttpResponse(entity = HttpEntity(ContentTypes.`application/json`, result)))
+                  case Failure(e) => complete(StatusCodes.InternalServerError)
+                }
 
             }
           }
         } ~
-        path("costs") {
-          complete(
-            HttpResponse(200, entity = repository.addAllCosts(costs, repository.applyDiscount).toString)
-          )
-        } ~
-        path("chained-futures") {
-          onComplete(future.chainedFuturesWithFor(future.addStuff(2, 6), future.minusStuff(3, 2))) {
-            case Success(result) => complete(s"$result")
-            case Failure(e) => complete(StatusCodes.InternalServerError)
+        pathPrefix("post") {
+          post {
+           parameters('activity.as[String],'area.as[String]){(activity,area) =>
+            onComplete(couchbaseRepository.postOne(activity,area)) {
+              case Success(result) => complete(HttpResponse(200,entity="item successfully posted"))
+              case Failure(e) => complete(StatusCodes.InternalServerError)
+            }
+           }
           }
-        } ~
-        path("futures-with-options") {
-          onComplete(future.findKeyInList(activities, "crazy")) {
-            case Success(result) => complete(s"$result")
-            case Failure(e) => complete(StatusCodes.InternalServerError)
+        } ~ path(Segment) {
+        id => {
+          delete {
+            onComplete(couchbaseRepository.deleteOne(id)) {
+              case Success(result) => complete(HttpResponse(200,entity="entity successfully deleted"))
+              case Failure(e) => complete(StatusCodes.InternalServerError)
+            }
           }
-        } ~
-        path("chained-future-options") {
-          onComplete(future.chainedFutureOptions(future.addStuff(number.getOrElse(2), 4), future.minusStuff(3, 3))) {
-            case Success(result) => complete(s"$result")
-            case Failure(e) => complete(StatusCodes.InternalServerError)
-          }
-        } ~
-        path("access-future-with-map") {
-          complete(future.findKeyInList(activities, "crazy").map(result => s"$result"))
-        } ~
-        path("future-sequence") {
-          onComplete(future.futureOperations) {
-            case Success(result) => complete(s"$result")
-            case Failure(e) => complete(StatusCodes.InternalServerError)
-          }
-        } ~
-        path("future-traverse") {
-          onComplete(future.futureTraverse(futureOperationsList)) {
-            case Success(result) => complete(s"$result")
-            case Failure(e) => complete(StatusCodes.InternalServerError)
-          }
-        } ~
-        path("future-fold-left") {
-          onComplete(future.futureFoldLeft(futureOperationsIntList)) {
-            case Success(result) => complete(s"$result")
-            case Failure(e) => complete(StatusCodes.InternalServerError)
-          }
-        } ~
-        path("future-completed-of") {
-          onComplete(future.futureFirstCompletedOf(futureOperationsIntList)) {
-            case Success(result) => complete(s"$result")
-            case Failure(e) => complete(StatusCodes.InternalServerError)
-          }
-        } ~
-        path("future-zip") {
-          onComplete(future.futureZip(future.findIndexInList(activities, "dfgsdfg"), future.findKeyInList(activities, "cycling"))) {
-            case Success(result) => complete(s"$result")
-            case Failure(e) => complete(StatusCodes.InternalServerError)
-          }
-        } ~
-        path("couchbase") {
-          onComplete(couchbaseRepository.findAll()) {
-            case Success(result) => complete(s"$result")
-            case Failure(e) => complete(StatusCodes.InternalServerError)
+              }
+            } ~ path(Segment) {
+        id => {
+          put {
+            parameters('activity.as[String],'area.as[String]) {
+              (activity, area) =>
+              onComplete(couchbaseRepository.updateOne(id,activity,area)) {
+                case Success(result) => complete(HttpResponse(200,entity = "successfully updated"))
+                case Failure(e) => complete(StatusCodes.InternalServerError)
+              }
+            }
           }
         }
-    }
-  }
+      }
+          }
 
-}
+      }
+
+
