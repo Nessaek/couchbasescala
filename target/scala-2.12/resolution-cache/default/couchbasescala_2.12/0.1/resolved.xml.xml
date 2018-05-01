@@ -4,7 +4,7 @@
 		module="couchbasescala_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20180416105607"
+		publication="20180424163832"
 	>
 		<description>
 		couchbasescala
@@ -42,5 +42,9 @@
 		<dependency org="com.typesafe.scala-logging" name="scala-logging_2.12" rev="3.9.0" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-http-spray-json_2.12" rev="10.1.1" conf="compile->default(compile)"/>
 		<dependency org="org.reactivecouchbase" name="reactivecouchbase-rs-core_2.12" rev="1.2.1" conf="compile->default(compile)"/>
+		<dependency org="io.cucumber" name="cucumber-scala_2.12" rev="2.0.1" conf="test->default(compile)"/>
+		<dependency org="info.cukes" name="cucumber-junit" rev="1.2.4" conf="compile->default(compile)"/>
+		<dependency org="junit" name="junit" rev="4.12" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.5" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>

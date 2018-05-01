@@ -1,0 +1,3 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/nke09/couchbasescala/src/test/resources/features,/Users/nke09/couchbasescala/target/scala-2.12/test-classes/features)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/nke09/couchbasescala/src/test/resources/features/CouchFeature.feature,/Users/nke09/couchbasescala/target/scala-2.12/test-classes/features/CouchFeature.feature)[0m

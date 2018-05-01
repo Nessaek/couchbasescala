@@ -22,12 +22,28 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.12.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.spire-math:jawn-parser_2.12:0.11.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-numbers_2.12:0.9.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-jawn_2.12:0.9.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-core_2.12:0.9.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalatest:scalatest_2.12:3.0.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalactic:scalactic_2.12:3.0.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.cucumber:tag-expressions:1.0.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.cucumber:gherkin:4.1.3:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.cucumber:cucumber-scala_2.12:2.0.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.cucumber:cucumber-jvm-deps:1.0.6:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.cucumber:cucumber-core:2.0.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: info.cukes:cucumber-html:0.2.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: info.cukes:cucumber-html:0.2.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: info.cukes:cucumber-core:1.2.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.hamcrest:hamcrest-core:1.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: junit:junit:4.12:jar" level="project" />
+    <orderEntry type="library" name="sbt: info.cukes:cucumber-junit:1.2.4:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:macro-compat_2.12:1.1.1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:machinist_2.12:0.6.2:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:cats-macros_2.12:1.0.1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:cats-kernel_2.12:1.0.1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:cats-core_2.12:1.0.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.spire-math:jawn-parser_2.12:0.11.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-lang.modules:scala-parser-combinators_2.12:1.0.4:jar" level="project" />
     <orderEntry type="library" name="sbt: org.reactivestreams:reactive-streams:1.0.2:jar" level="project" />
     <orderEntry type="library" name="sbt: org.reactivecouchbase:reactivecouchbase-rs-core_2.12:1.2.1:jar" level="project" />
@@ -35,11 +51,8 @@
     <orderEntry type="library" name="sbt: io.reactivex:rxjava-reactive-streams:1.2.1:jar" level="project" />
     <orderEntry type="library" name="sbt: io.reactivex:rxjava:1.3.4:jar" level="project" />
     <orderEntry type="library" name="sbt: io.circe:circe-parser_2.12:0.9.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.circe:circe-numbers_2.12:0.9.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.circe:circe-jawn_2.12:0.9.1:jar" level="project" />
     <orderEntry type="library" name="sbt: io.circe:circe-java8_2.12:0.9.1:jar" level="project" />
     <orderEntry type="library" name="sbt: io.circe:circe-generic_2.12:0.9.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.circe:circe-core_2.12:0.9.1:jar" level="project" />
     <orderEntry type="library" name="sbt: com.typesafe.play:play-json_2.12:2.6.9:jar" level="project" />
     <orderEntry type="library" name="sbt: com.typesafe.play:play-functional_2.12:2.6.9:jar" level="project" />
     <orderEntry type="library" name="sbt: com.typesafe.akka:akka-stream_2.12:2.5.11:jar" level="project" />
@@ -80,5 +93,7 @@
     <orderEntry type="library" name="sbt: org.scala-lang.modules:scala-java8-compat_2.12:0.8.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-lang:scala-reflect:2.12.2:jar" level="project" />
     <orderEntry type="library" name="sbt: com.typesafe.scala-logging:scala-logging_2.12:3.9.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: info.cukes:cucumber-jvm-deps:1.0.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: info.cukes:gherkin:2.12.2:jar" level="project" />
   </component>
 </module>
