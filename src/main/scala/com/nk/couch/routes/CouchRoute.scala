@@ -26,7 +26,7 @@ trait FormatMe extends SprayJsonSupport with DefaultJsonProtocol{
 
 }
 
-class PlannerRoute extends Directives with LazyLogging with FormatMe {
+class PlannerRoute extends Directives with LazyLogging{
 
   val couchbaseRepository: CouchbaseRepository = new CouchbaseRepository
   val authService: AuthenticationService = new AuthenticationService
@@ -46,50 +46,51 @@ class PlannerRoute extends Directives with LazyLogging with FormatMe {
               rejectEmptyResponse {
                 path(Segment) { id => {
                   onSuccess(couchbaseRepository.findOne(id)) { result =>
-                    complete(result)
+                    complete(s"$result")
 
                   }
                 }
 
                 } ~ onComplete(couchbaseRepository.findAll) {
 
-                    case Success(result) =>
-                      complete(result)
+                    case Success(result) => complete(s"$result")
                     case Failure(e) => complete(e)
                   }
               }
-            } ~ post {
-              entity(as[Activity]){activity =>
-                onComplete(couchbaseRepository.postOne(activity)) {
-                  case Success(result) => complete(result)
-                  case Failure(e) => complete(StatusCodes.InternalServerError)
-                }
-              }
-            } ~ put {
-              path(Segment) {
-                id => {
-                  parameters('activity.as[String], 'area.as[String]) {
-                    (activity, area) =>
-                      onComplete(couchbaseRepository.updateOne(id, activity, area)) {
-                        case Success(result) => complete(HttpResponse(200, entity = "successfully updated"))
-                        case Failure(e) => complete(StatusCodes.InternalServerError)
-                      }
-                  }
-                }
-              }
-            } ~
-              delete {
-                rejectEmptyResponse {
-                  path(Segment) {
-                    id => {
-                      onSuccess(couchbaseRepository.deleteOne(id)){
-                        case true => complete(HttpResponse(200, entity = "entity successfully deleted"))
-                        case false => complete(HttpResponse(404,entity="entity not found"))
-                      }
-                      }
-                    }
-                  }
-                }
+            }
+//            ~ post {
+//              entity(as[Activity]){activity =>
+//                onComplete(couchbaseRepository.postOne(activity)) {
+//                  case Success(result) => complete(result)
+//                  case Failure(e) => complete(StatusCodes.InternalServerError)
+//                }
+//              }
+//            }
+//            ~ put {
+//              path(Segment) {
+//                id => {
+//                  parameters('activity.as[String], 'area.as[String]) {
+//                    (activity, area) =>
+//                      onComplete(couchbaseRepository.updateOne(id, activity, area)) {
+//                        case Success(result) => complete(HttpResponse(200, entity = "successfully updated"))
+//                        case Failure(e) => complete(StatusCodes.InternalServerError)
+//                      }
+//                  }
+//                }
+//              }
+//            } ~
+//              delete {
+//                rejectEmptyResponse {
+//                  path(Segment) {
+//                    id => {
+//                      onSuccess(couchbaseRepository.deleteOne(id)){
+//                        case true => complete(HttpResponse(200, entity = "entity successfully deleted"))
+//                        case false => complete(HttpResponse(404,entity="entity not found"))
+//                      }
+//                      }
+//                    }
+//                  }
+//                }
               }
 
           }

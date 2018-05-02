@@ -4,50 +4,50 @@ import com.nk.couch.model.Activity
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import com.typesafe.config.ConfigFactory
-import org.reactivecouchbase.rs.scaladsl.{N1qlQuery, ReactiveCouchbase, WriteSettings}
+import org.reactivecouchbase.rs.scaladsl.{N1qlQuery, ReactiveCouchbase}
 import spray.json.{DefaultJsonProtocol, JsonReader}
 
-import scala.concurrent.Future
+import scala.concurrent.{Await, Future}
 import scala.language.postfixOps
 import akka.http.scaladsl.server.Directives
 import org.reactivecouchbase.rs.scaladsl.json.JsonFormat
-import play.api.libs.json.Json
+import play.api.libs.json.{JsValue, Json}
 import java.util.UUID.randomUUID
 
+import scala.concurrent.duration._
 import com.nk.couch.routes.FormatMe
-
-
 
 
 object CouchbaseRepository extends CouchbaseRepository
 
-class CouchbaseRepository extends Directives with DefaultJsonProtocol with FormatMe  {
+class CouchbaseRepository extends Directives with DefaultJsonProtocol {
 
   val system = ActorSystem("ReactiveCouchbaseSystem")
 
   implicit val materializer = ActorMaterializer.create(system)
   implicit val ec = system.dispatcher
 
-  implicit val format:JsonFormat[Activity] = Json.format[Activity]
+  implicit val format: JsonFormat[Activity] = Json.format[Activity]
 
 
-  def findOne(docId:String): Future[Option[Activity]] = {
+  def findOne(docId: String): Future[Option[Activity]] = {
     CouchDriver.plannerBucket.get(docId)
   }
 
 
   def findAll(): Future[scala.Seq[String]] = {
-    CouchDriver.plannerBucket.search(N1qlQuery("SELECT * FROM planner WHERE area ='area'")).map(result => result.toString).asSeq
+    CouchDriver.plannerBucket.search(N1qlQuery("select * from planner")).map(result => result.toString).asSeq
   }
 
 
   def postOne(activity: Activity): Future[Activity] = {
-  CouchDriver.plannerBucket.insert(randomUUID().toString, activity).map(result => result)
+    CouchDriver.plannerBucket.insert(randomUUID().toString, activity).map(result =>
+      result)
 
   }
 
 
-  def deleteOne(docId:String): Future[Any] = {
+  def deleteOne(docId: String): Future[Any] = {
     try {
       findOne(docId).flatMap(result =>
         if (result.isEmpty) {
@@ -60,8 +60,8 @@ class CouchbaseRepository extends Directives with DefaultJsonProtocol with Forma
     }
   }
 
-  def updateOne(docId:String, activity:String,area:String):  Future[Activity] = {
-  CouchDriver.plannerBucket.replace(docId, Activity(activity,area))
+  def updateOne(docId: String, activity: String, area: String): Future[Activity] = {
+    CouchDriver.plannerBucket.replace(docId, Activity(activity, area))
   }
 }
 

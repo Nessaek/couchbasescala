@@ -33,28 +33,4 @@ object Main extends App {
 }
 
 
-object FabImplicits {
-   implicit class FabLower(s: String){
-     def fLower: String = s.toLowerCase
-   }
-}
 
-object FabsMain extends App {
-  import FabImplicits.FabLower
-  val s = "TEST"
-
-  // java
-  println(FabUtil.toFabLower(s))
-
-
-  println(s.fLower)
-
-  s charAt 1
-
-}
-
-object FabUtil {
-  def toFabLower(s: String) = {
-    s.toLowerCase
-  }
-}
