@@ -22,11 +22,9 @@ import scala.concurrent.Future
 
 trait FormatMe extends SprayJsonSupport with DefaultJsonProtocol{
   implicit val activityFormat = jsonFormat2(Activity)
-
-
 }
 
-class PlannerRoute extends Directives with LazyLogging{
+class PlannerRoute extends Directives with LazyLogging with FormatMe {
 
   val couchbaseRepository: CouchbaseRepository = new CouchbaseRepository
   val authService: AuthenticationService = new AuthenticationService
@@ -38,8 +36,8 @@ class PlannerRoute extends Directives with LazyLogging{
 
   val plannerRoute = {
     pathPrefix("suggestion") {
-      complete(200 -> "test")
-     pathPrefix("security") {
+
+      pathPrefix("security") {
         authenticateBasicAsync(realm = "secure site", authService.myUserPassAuthenticator) {
           loggedIn => {
             get {
@@ -53,48 +51,51 @@ class PlannerRoute extends Directives with LazyLogging{
 
                 } ~ onComplete(couchbaseRepository.findAll) {
 
-                    case Success(result) => complete(s"$result")
-                    case Failure(e) => complete(e)
-                  }
+                  case Success(result) => complete(result)
+                  case Failure(e) => complete(e)
+                }
               }
-            }
-//            ~ post {
-//              entity(as[Activity]){activity =>
-//                onComplete(couchbaseRepository.postOne(activity)) {
-//                  case Success(result) => complete(result)
-//                  case Failure(e) => complete(StatusCodes.InternalServerError)
-//                }
-//              }
-//            }
-//            ~ put {
-//              path(Segment) {
-//                id => {
-//                  parameters('activity.as[String], 'area.as[String]) {
-//                    (activity, area) =>
-//                      onComplete(couchbaseRepository.updateOne(id, activity, area)) {
-//                        case Success(result) => complete(HttpResponse(200, entity = "successfully updated"))
-//                        case Failure(e) => complete(StatusCodes.InternalServerError)
-//                      }
-//                  }
-//                }
-//              }
-//            } ~
-//              delete {
-//                rejectEmptyResponse {
-//                  path(Segment) {
-//                    id => {
-//                      onSuccess(couchbaseRepository.deleteOne(id)){
-//                        case true => complete(HttpResponse(200, entity = "entity successfully deleted"))
-//                        case false => complete(HttpResponse(404,entity="entity not found"))
-//                      }
-//                      }
-//                    }
-//                  }
-//                }
+            } ~ post {
+              entity(as[Activity]) { activity =>
+                onComplete(couchbaseRepository.postOne(activity)) {
+                  case Success(result) => complete(result)
+                  case Failure(e) => complete(StatusCodes.InternalServerError)
+                }
+              }
+            } ~ put {
+              path(Segment) {
+                id => {
+                  parameters('activity.as[String], 'area.as[String]) {
+                    (activity, area) =>
+                      onComplete(couchbaseRepository.updateOne(id, activity, area)) {
+                        case Success(result) => complete(HttpResponse(200, entity = "successfully updated"))
+                        case Failure(e) => complete(StatusCodes.InternalServerError)
+                      }
+                  }
+                }
+              }
+            } ~
+              delete {
+                rejectEmptyResponse {
+                  path(Segment) {
+                    id => {
+                      onSuccess(couchbaseRepository.deleteOne(id)) {
+                        case true => complete(HttpResponse(200, entity = "entity successfully deleted"))
+                        case false => complete(HttpResponse(404, entity = "entity not found"))
+                      }
+                    }
+                  } ~ {
+                    onSuccess(couchbaseRepository.deleteAll()) {
+                      case true => complete(HttpResponse(200, entity = "bucket succesfully flushed"))
+                      case false => complete(StatusCodes.InternalServerError)
+                    }
+                  }
+                }
               }
 
           }
         }
       }
     }
+  }
 }

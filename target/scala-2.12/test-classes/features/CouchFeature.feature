@@ -4,16 +4,18 @@ Feature: Customer activities can be capture and modified by api
   @scenario
   Scenario: Customer can add, get and delete a valid activity
     Given that the customer is logged in to the app
+    And the database is empty
     And the customer posts a suggestion
     Then the application should return 200
     And the application should display the new suggestion for that customer
-
+    And the application should have the suggestion available
+#
     When the customer provides incorrect credentials
-    And the customer posts a suggestion
+    And the customer tries to post a suggestion
     Then the application should send 401
 
-    When the customer posts a suggestion with malformed json
-    Then the application should send back 400
+#    When the customer posts a suggestion with malformed json
+#    Then the application should send back 400
 ##    And the application should include the new suggestion
 ##
 ##  When the customer updates the added suggestion

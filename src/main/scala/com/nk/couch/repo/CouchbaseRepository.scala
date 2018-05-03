@@ -1,16 +1,18 @@
 package com.nk.couch.repo
 
-import com.nk.couch.model.Activity
+import com.nk.couch.model.{Activity, ActivityWithId}
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import com.typesafe.config.ConfigFactory
 import org.reactivecouchbase.rs.scaladsl.{N1qlQuery, ReactiveCouchbase}
 import spray.json.{DefaultJsonProtocol, JsonReader}
 
-import scala.concurrent.{Await, Future}
+import scala.concurrent.Future
+
+//import scala.concurrent.Future
 import scala.language.postfixOps
 import akka.http.scaladsl.server.Directives
-import org.reactivecouchbase.rs.scaladsl.json.JsonFormat
+import org.reactivecouchbase.rs.scaladsl.json.{JsonFormat, JsonReads}
 import play.api.libs.json.{JsValue, Json}
 import java.util.UUID.randomUUID
 
@@ -28,6 +30,7 @@ class CouchbaseRepository extends Directives with DefaultJsonProtocol {
   implicit val ec = system.dispatcher
 
   implicit val format: JsonFormat[Activity] = Json.format[Activity]
+//  implicit val reader: JsonReads[Seq[Activity]] = Json.format[scala.Seq[Activity]]
 
 
   def findOne(docId: String): Future[Option[Activity]] = {
@@ -35,12 +38,12 @@ class CouchbaseRepository extends Directives with DefaultJsonProtocol {
   }
 
 
-  def findAll(): Future[scala.Seq[String]] = {
-    CouchDriver.plannerBucket.search(N1qlQuery("select * from planner")).map(result => result.toString).asSeq
+  def findAll(): Future[Seq[Activity]] = {
+    CouchDriver.plannerBucket.search(N1qlQuery("select planner.* from planner")).map(result => result).asSeq
   }
 
 
-  def postOne(activity: Activity): Future[Activity] = {
+  def postOne(activity: Activity): Future[ActivityWithId] = {
     CouchDriver.plannerBucket.insert(randomUUID().toString, activity).map(result =>
       result)
 
@@ -48,7 +51,7 @@ class CouchbaseRepository extends Directives with DefaultJsonProtocol {
 
 
   def deleteOne(docId: String): Future[Any] = {
-    try {
+
       findOne(docId).flatMap(result =>
         if (result.isEmpty) {
           Future(false)
@@ -57,7 +60,10 @@ class CouchbaseRepository extends Directives with DefaultJsonProtocol {
           CouchDriver.plannerBucket.remove(docId)
         }
       )
-    }
+  }
+
+  def deleteAll():  Future[scala.Boolean] = {
+   CouchDriver.plannerBucket.withManager(_.flush()).map(result => result)
   }
 
   def updateOne(docId: String, activity: String, area: String): Future[Activity] = {
