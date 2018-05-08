@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="612d0c21-6d2d-4ce8-8bfd-beaf357178a4" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/nk/crud/model/Activity.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/com/nk/crud/steps/StepDefinitions.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/com/nk/crud/steps/TestRunner.scala" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/couchbasescala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/couchbasescala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/couchbasescala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/couchbasescala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" />
@@ -18,20 +21,32 @@
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-couchbasescala-build-test.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-couchbasescala-build-test.xml" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/nk/couch/model/Activity.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/nk/couch/model/Activity.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/nk/couch/repo/CouchbaseRepository.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/nk/couch/repo/CouchbaseRepository.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/nk/couch/routes/CouchRoute.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/nk/couch/routes/CouchRoute.scala" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/CouchFeature.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/CouchFeature.feature" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/com/nk/couch/steps/StepDefinitions.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/nk/couch/steps/StepDefinitions.scala" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/com/nk/couch/steps/TestRunner.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/nk/couch/steps/TestRunner.scala" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/couch/repo/CouchDriver$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/couch/repo/CouchDriver$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/couch/repo/CouchbaseRepository$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/couch/repo/CouchbaseRepository$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/couch/repo/CouchbaseRepository.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/couch/repo/CouchbaseRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/couch/routes/PlannerRoute.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/couch/routes/PlannerRoute.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Main.scala" afterPath="$PROJECT_DIR$/src/main/scala/Main.scala" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/nk/couch/model/Activity.scala" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/nk/couch/model/User.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/nk/crud/model/User.scala" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/nk/couch/repo/CouchbaseRepository.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/nk/crud/repo/CouchbaseRepository.scala" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/nk/couch/routes/CouchRoute.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/nk/crud/routes/CrudRoute.scala" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/nk/couch/services/AuthenticationService.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/nk/crud/services/AuthenticationService.scala" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/CouchFeature.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/CrudFeature.feature" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/com/nk/couch/steps/StepDefinitions.scala" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/com/nk/couch/steps/TestRunner.scala" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Main$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Main$$anonfun$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Main$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Main$.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Main$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Main$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Main.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/couch/model/Activity$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/couch/model/Activity.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/couch/model/User$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/couch/model/User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/couch/repo/CouchDriver$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/couch/repo/CouchDriver.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/couch/repo/CouchbaseRepository$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/couch/repo/CouchbaseRepository.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/couch/routes/FormatMe.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/couch/routes/PlannerRoute.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/couch/services/AuthenticationService.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/couchbasescala$sources/0.1/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/couchbasescala$sources/0.1/resolved.xml.properties" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/couchbasescala$sources/0.1/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/couchbasescala$sources/0.1/resolved.xml.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/couchbasescala_2.12/0.1/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/couchbasescala_2.12/0.1/resolved.xml.properties" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/couchbasescala_2.12/0.1/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/couchbasescala_2.12/0.1/resolved.xml.xml" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala$sources-compile-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala$sources-compile-internal.xml" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala$sources-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala$sources-compile.xml" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala$sources-optional.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala$sources-optional.xml" />
@@ -43,23 +58,10 @@
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala$sources-scala-tool.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala$sources-scala-tool.xml" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala$sources-test-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala$sources-test-internal.xml" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala$sources-test.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala$sources-test.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-compile-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-compile.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-optional.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-optional.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-plugin.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-pom.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-pom.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-provided.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-provided.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-runtime-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-runtime.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-runtime.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-scala-tool.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-test-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-test.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-test.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/com/nk/couch/steps/StepDefinitions.class" afterPath="$PROJECT_DIR$/target/scala-2.12/test-classes/com/nk/couch/steps/StepDefinitions.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/com/nk/couch/steps/TestRunner$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/test-classes/com/nk/couch/steps/TestRunner$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/com/nk/couch/steps/TestRunner.class" afterPath="$PROJECT_DIR$/target/scala-2.12/test-classes/com/nk/couch/steps/TestRunner.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/features/CouchFeature.feature" afterPath="$PROJECT_DIR$/target/scala-2.12/test-classes/features/CouchFeature.feature" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/com/nk/couch/steps/StepDefinitions.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/com/nk/couch/steps/TestRunner$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/com/nk/couch/steps/TestRunner.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/features/CouchFeature.feature" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -101,66 +103,72 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CouchRoute.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/couch/routes/CouchRoute.scala">
+      <file leaf-file-name="CrudRoute.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/crud/routes/CrudRoute.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-133">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="630">
+              <caret line="65" column="50" lean-forward="false" selection-start-line="65" selection-start-column="50" selection-end-line="65" selection-end-column="50" />
+              <folding>
+                <element signature="e#29#114#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StepDefinitions.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/com/nk/couch/steps/StepDefinitions.scala">
+      <file leaf-file-name="AuthenticationService.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/crud/services/AuthenticationService.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="99" column="9" lean-forward="false" selection-start-line="99" selection-start-column="2" selection-end-line="99" selection-end-column="9" />
+            <state relative-caret-position="240">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
-                <element signature="e#28#57#0" expanded="true" />
+                <element signature="e#30#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="CouchbaseRepository.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/couch/repo/CouchbaseRepository.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/crud/repo/CouchbaseRepository.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="59" column="49" lean-forward="false" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
+            <state relative-caret-position="525">
+              <caret line="51" column="51" lean-forward="false" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
               <folding>
-                <element signature="e#27#61#0" expanded="true" />
+                <element signature="e#26#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Activity.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/couch/model/Activity.scala">
+      <file leaf-file-name="StepDefinitions.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/nk/crud/steps/StepDefinitions.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-              <folding />
+            <state relative-caret-position="202">
+              <caret line="48" column="1" lean-forward="false" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+              <folding>
+                <element signature="e#27#56#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CouchFeature.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/CouchFeature.feature">
+      <file leaf-file-name="CrudFeature.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/CrudFeature.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="40" />
+              <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bucket.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.reactivecouchbase/reactivecouchbase-rs-core_2.12/srcs/reactivecouchbase-rs-core_2.12-1.2.1-sources.jar!/org/reactivecouchbase/rs/scaladsl/Bucket.scala">
+      <file leaf-file-name="Main.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/Main.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9660">
-              <caret line="671" column="106" lean-forward="false" selection-start-line="671" selection-start-column="106" selection-end-line="671" selection-end-column="106" />
-              <folding />
+            <state relative-caret-position="75">
+              <caret line="9" column="59" lean-forward="false" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+              <folding>
+                <element signature="e#1#30#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -174,9 +182,11 @@
       <find>couchbase</find>
       <find>bucket</find>
       <find>pom</find>
+      <find>feature</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/main</dir>
+      <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -223,20 +233,24 @@
         <option value="$PROJECT_DIR$/app-env" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/src/main/scala/com/nk/couch/services/AuthenticationService.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Main.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/nk/couch/steps/TestRunner.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/nk/couch/routes/CouchRoute.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/nk/couch/repo/CouchbaseRepository.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/nk/couch/steps/Hooks.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/nk/couch/model/Activity.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/nk/couch/steps/TestRunner.scala" />
         <option value="$PROJECT_DIR$/src/test/resources/features/CouchFeature.feature" />
         <option value="$PROJECT_DIR$/src/test/scala/com/nk/couch/steps/StepDefinitions.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/nk/couch/model/Activity.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/nk/couch/repo/CouchbaseRepository.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/nk/couch/routes/CouchRoute.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/nk/crud/routes/CouchRoute.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Main.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/nk/crud/steps/TestRunner.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/nk/crud/routes/CrudRoute.scala" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/CrudFeature.feature" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/nk/crud/steps/StepDefinitions.scala" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="22" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="44" />
     <option name="width" value="1680" />
     <option name="height" value="943" />
   </component>
@@ -258,10 +272,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -293,7 +303,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="couch" type="462c0819:PsiDirectoryNode" />
+              <item name="crud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="couchbasescala" type="b2602c69:ProjectViewProjectNode" />
@@ -301,16 +311,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="couch" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="couchbasescala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="couchbasescala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="couch" type="462c0819:PsiDirectoryNode" />
+              <item name="crud" type="462c0819:PsiDirectoryNode" />
               <item name="repo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -319,7 +320,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="couch" type="462c0819:PsiDirectoryNode" />
+              <item name="crud" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -328,7 +329,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="couch" type="462c0819:PsiDirectoryNode" />
+              <item name="crud" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -371,6 +372,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -442,11 +447,11 @@
     <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.nk.couch.steps.*" />
+          <option name="PATTERN" value="com.nk.crud.steps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.nk.couch.steps.TestRunner" />
+      <option name="MAIN_CLASS_NAME" value="com.nk.crud.steps.TestRunner" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -475,10 +480,10 @@
     <configuration name="tests" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/features" />
-      <option name="GLUE" value="com.nk.couch" />
+      <option name="GLUE" value="com.nk.crud" />
       <option name="myNameFilter" />
       <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" value="com.nk.couch.steps.TestRunner" />
+      <option name="MAIN_CLASS_NAME" value="com.nk.crud.steps.TestRunner" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -565,7 +570,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1525265104453" />
+    <option name="lastUpdateTimestamp" value="1525364497145" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -621,64 +626,64 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="tests - 2018.05.03 at 10h 47m 00s.xml">
+    <history-entry file="tests - 2018.05.04 at 14h 43m 06s.xml">
       <configuration name="tests" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="tests - 2018.05.03 at 10h 47m 18s.xml">
+    <history-entry file="tests - 2018.05.04 at 14h 43m 25s.xml">
       <configuration name="tests" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="tests - 2018.05.03 at 10h 47m 29s.xml">
+    <history-entry file="tests - 2018.05.04 at 14h 44m 23s.xml">
       <configuration name="tests" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="tests - 2018.05.03 at 10h 48m 53s.xml">
+    <history-entry file="tests - 2018.05.04 at 14h 44m 54s.xml">
       <configuration name="tests" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="tests - 2018.05.03 at 10h 49m 23s.xml">
+    <history-entry file="tests - 2018.05.04 at 14h 45m 17s.xml">
       <configuration name="tests" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="tests - 2018.05.03 at 10h 50m 04s.xml">
+    <history-entry file="tests - 2018.05.04 at 14h 46m 20s.xml">
       <configuration name="tests" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="tests - 2018.05.03 at 10h 50m 37s.xml">
+    <history-entry file="tests - 2018.05.04 at 14h 47m 03s.xml">
       <configuration name="tests" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="tests - 2018.05.03 at 10h 51m 24s.xml">
+    <history-entry file="tests - 2018.05.04 at 14h 48m 32s.xml">
       <configuration name="tests" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="tests - 2018.05.03 at 10h 51m 51s.xml">
+    <history-entry file="tests - 2018.05.08 at 09h 18m 18s.xml">
       <configuration name="tests" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="tests - 2018.05.03 at 10h 52m 48s.xml">
+    <history-entry file="tests - 2018.05.08 at 09h 22m 58s.xml">
       <configuration name="tests" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="22" y="23" width="1680" height="943" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3384434" sideWeight="0.41819292" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11294261" sideWeight="0.48504272" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33776867" sideWeight="0.41819292" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14468865" sideWeight="0.48504272" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35023585" sideWeight="0.20879121" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4033019" sideWeight="0.7912088" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35005116" sideWeight="0.7912088" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.497558" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285568" sideWeight="0.497558" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23687424" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25457877" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39611053" sideWeight="0.76495725" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39406347" sideWeight="0.76495725" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -732,78 +737,68 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="65" />
+      <option name="time" value="77" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>postJson(correctCreds, validJson)</expression-string>
+        <expression-string>output3.status</expression-string>
         <language-id>Scala</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>Await.result(CouchDriver.plannerBucket.search[JsValue](N1qlQuery(&quot;select planner.* from planner&quot;)).map(result =&gt; result).asSeq,2 seconds)</expression-string>
+        <expression-string>output3</expression-string>
         <language-id>Scala</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>Await.result(CouchDriver.plannerBucket.search[JsValue](N1qlQuery(&quot;select planner from planner&quot;)).map(result =&gt; result).asSeq,2 seconds)</expression-string>
+        <expression-string>Http().singleRequest(HttpRequest(uri = Uri(&quot;http://localhost:8080/suggestion/security&quot;), method = HttpMethods.GET, entity = HttpEntity(ContentTypes.`application/json`, json)).addCredentials(basicHttpCredentials))</expression-string>
         <language-id>Scala</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>Await.result(CouchDriver.plannerBucket.search[JsValue](N1qlQuery(&quot;select * from planner&quot;)).map(result =&gt; result).asSeq,2 seconds)</expression-string>
+        <expression-string>Http().singleRequest(HttpRequest(uri = Uri(&quot;http://localhost:8080/suggestion/security&quot;), method = HttpMethods.POST, entity = HttpEntity(ContentTypes.`application/json`, json)).addCredentials(basicHttpCredentials))</expression-string>
         <language-id>Scala</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>CouchDriver.plannerBucket.search[JsValue](N1qlQuery(&quot;select * from planner&quot;)).map(result =&gt; result).asSeq</expression-string>
+        <expression-string>Await.result(CouchDriver.plannerBucket.remove(docId).map(result =&gt; result),[Duration]2.seconds)</expression-string>
         <language-id>Scala</language-id>
+        <custom-info>org.scalatest.tools.Durations.Duration,scala.concurrent.duration.Duration,scala.concurrent.Await</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>Await.result(CouchDriver.plannerBucket.search[Activity](N1qlQuery(&quot;select * from planner&quot;)).map(result =&gt; result).asSeq,2 seconds)</expression-string>
+        <expression-string>Await.result(CouchDriver.plannerBucket.remove(&quot;2&quot;).map(result =&gt; println(result)),duration.</expression-string>
         <language-id>Scala</language-id>
+        <custom-info>cats.instances.duration,scala.concurrent.Await</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>Await.result(CouchDriver.plannerBucket.search[JsValue](N1qlQuery(&quot;select * from planner&quot;)),10 seconds)</expression-string>
+        <expression-string>Await.result(CouchDriver.plannerBucket.remove(&quot;2&quot;).map(result =&gt; println(result)),duration(2 seconds))</expression-string>
         <language-id>Scala</language-id>
+        <custom-info>cats.instances.duration,scala.concurrent.Await</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>CouchDriver.plannerBucket.search[JsValue](N1qlQuery(&quot;select area from planner where `area`='area'&quot;)).map(result =&gt; result).asSeq</expression-string>
+        <expression-string>Await.result(CouchDriver.plannerBucket.remove(&quot;2&quot;).map(result =&gt; println(result)),2)</expression-string>
         <language-id>Scala</language-id>
+        <custom-info>scala.concurrent.Await</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>CouchDriver.plannerBucket.search[Activity](N1qlQuery(&quot;select area from planner where `area`='area'&quot;)).map(result =&gt; result).asSeq</expression-string>
+        <expression-string>Await.result(CouchDriver.plannerBucket.remove(&quot;2&quot;).map(result =&gt; println(result)),2.seconds)</expression-string>
         <language-id>Scala</language-id>
+        <custom-info>scala.concurrent.Await</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.reactivecouchbase/reactivecouchbase-rs-core_2.12/srcs/reactivecouchbase-rs-core_2.12-1.2.1-sources.jar!/org/reactivecouchbase/rs/scaladsl/json/api.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="37" column="60" lean-forward="true" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/planner/routes/RouteProvider.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/planner/repo/PlannerRepository.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/planner/repo/FutureRepository.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/planner/config/Configuration.scala" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/srcs/akka-http-core_2.12-10.1.1-sources.jar!/akka/http/scaladsl/model/ContentType.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -823,13 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="53" lean-forward="false" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/couch/model/User.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -926,13 +914,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/couch/services/AuthenticationService.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http_2.12/srcs/akka-http_2.12-10.1.1-sources.jar!/akka/http/scaladsl/server/directives/RouteDirectives.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -965,13 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="58" column="16" lean-forward="false" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/io.cucumber/cucumber-core/srcs/cucumber-core-2.0.1-sources.jar!/cucumber/api/cli/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1017,14 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Main.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.reactivecouchbase/reactivecouchbase-rs-core_2.12/srcs/reactivecouchbase-rs-core_2.12-1.2.1-sources.jar!/org/reactivecouchbase/rs/scaladsl/utils.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1032,35 +998,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/nk/couch/steps/TestRunner.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.reactivecouchbase/reactivecouchbase-rs-core_2.12/srcs/reactivecouchbase-rs-core_2.12-1.2.1-sources.jar!/org/reactivecouchbase/rs/scaladsl/Bucket.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9660">
-          <caret line="671" column="106" lean-forward="false" selection-start-line="671" selection-start-column="106" selection-end-line="671" selection-end-column="106" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/nk/couch/steps/Hooks.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/nk/couch/steps/Hooks.scala" />
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.2-sources.jar!/scala/concurrent/Future.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="163" column="6" lean-forward="false" selection-start-line="163" selection-start-column="6" selection-end-line="163" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1068,67 +1010,131 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="33" column="6" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/nk/couch/steps/CommonStepDefs.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/nk/couch/steps/CommonStepDefs.scala" />
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.5-sources.jar!/org/scalatest/Matchers.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="6702" column="8" lean-forward="false" selection-start-line="6702" selection-start-column="8" selection-end-line="6702" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/couch/routes/CouchRoute.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.reactivecouchbase/reactivecouchbase-rs-core_2.12/srcs/reactivecouchbase-rs-core_2.12-1.2.1-sources.jar!/org/reactivecouchbase/rs/scaladsl/settings.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="75">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/CouchFeature.feature">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/crud/model/Activity.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.reactivecouchbase/reactivecouchbase-rs-core_2.12/srcs/reactivecouchbase-rs-core_2.12-1.2.1-sources.jar!/org/reactivecouchbase/rs/scaladsl/Bucket.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="729" column="3" lean-forward="false" selection-start-line="729" selection-start-column="3" selection-end-line="729" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/io.cucumber/cucumber-core/srcs/cucumber-core-2.0.1-sources.jar!/cucumber/api/cli/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/srcs/akka-http-core_2.12-10.1.1-sources.jar!/akka/http/scaladsl/model/MediaType.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="287" column="7" lean-forward="false" selection-start-line="287" selection-start-column="7" selection-end-line="287" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/srcs/akka-http-core_2.12-10.1.1-sources.jar!/akka/http/scaladsl/model/ContentType.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="118" column="42" lean-forward="true" selection-start-line="118" selection-start-column="42" selection-end-line="118" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/crud/model/User.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="59" lean-forward="false" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+          <folding>
+            <element signature="e#1#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/nk/crud/steps/TestRunner.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding>
+            <element signature="e#27#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/crud/services/AuthenticationService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#30#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/crud/repo/CouchbaseRepository.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="51" column="51" lean-forward="false" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
+          <folding>
+            <element signature="e#26#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/crud/routes/CrudRoute.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="65" column="50" lean-forward="false" selection-start-line="65" selection-start-column="50" selection-end-line="65" selection-end-column="50" />
+          <folding>
+            <element signature="e#29#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/CrudFeature.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="40" />
+          <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/nk/couch/steps/StepDefinitions.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/nk/crud/steps/StepDefinitions.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="99" column="9" lean-forward="false" selection-start-line="99" selection-start-column="2" selection-end-line="99" selection-end-column="9" />
+        <state relative-caret-position="202">
+          <caret line="48" column="1" lean-forward="false" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
           <folding>
-            <element signature="e#28#57#0" expanded="true" />
+            <element signature="e#27#56#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/couch/repo/CouchbaseRepository.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="59" column="49" lean-forward="false" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
-          <folding>
-            <element signature="e#27#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/couch/model/Activity.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1190,6 +1196,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1209,7 +1216,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>sbt: org.scala-lang:scala-library:2.12.5:jar</last-edited>
+          <last-edited>sbt: ch.qos.logback:logback-classic:1.2.3:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
