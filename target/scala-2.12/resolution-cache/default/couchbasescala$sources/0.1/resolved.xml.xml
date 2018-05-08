@@ -4,7 +4,7 @@
 		module="couchbasescala$sources"
 		revision="0.1"
 		status="integration"
-		publication="20180503172133"
+		publication="20180508092919"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
