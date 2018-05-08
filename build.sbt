@@ -21,7 +21,13 @@ libraryDependencies ++= {
     "ch.qos.logback" % "logback-classic" % "1.2.3",
     "com.typesafe.scala-logging" %% "scala-logging" % "3.9.0",
     "com.typesafe.akka" %% "akka-http-spray-json" % "10.1.1",
-    "org.reactivecouchbase" %% "reactivecouchbase-rs-core" % "1.2.1"
+    "org.reactivecouchbase" %% "reactivecouchbase-rs-core" % "1.2.1",
+
+    //TESTING
+    "io.cucumber" %% "cucumber-scala" % "2.0.1" % "test",
+    "info.cukes" % "cucumber-junit" % "1.2.4",
+    "junit" % "junit" % "4.12",
+    "org.scalatest" %% "scalatest" % "3.0.5" % "test"
 
   )
 }

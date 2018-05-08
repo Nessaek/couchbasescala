@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0">
+<testcase classname="User can create, read, update and delete an item from a couchbase database" name="User can add, get and delete a valid activity" time="0">
+<skipped><![CDATA[Given the server is running.................................................undefined
+And a user provides a user ID token.........................................undefined
+When the customer adds an activity to the planner...........................undefined
+Then the API should return 200..............................................undefined
+]]></skipped>
+</testcase>
+</testsuite>

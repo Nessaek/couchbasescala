@@ -1,0 +1,70 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User can add, get and delete a valid activity",
+        "description": "",
+        "id": "user-can-create,-read,-update-and-delete-an-item-from-a-couchbase-database;user-can-add,-get-and-delete-a-valid-activity",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "the server is running",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "a user provides a user ID token",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "the customer adds an activity to the planner",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "the API should return 200",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@scenario"
+          }
+        ]
+      }
+    ],
+    "name": "User can create, read, update and delete an item from a couchbase database",
+    "description": "",
+    "id": "user-can-create,-read,-update-and-delete-an-item-from-a-couchbase-database",
+    "keyword": "Feature",
+    "uri": "features/CouchFeature.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Test"
+      }
+    ]
+  }
+]
