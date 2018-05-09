@@ -46,7 +46,7 @@ class StepDefinitions extends ScalaDsl with EN {
   val validJson = """{"id":"1","activity":"activity","area":"area"}"""
 
   val invalidJson = """{"id":"1","activ":"activity","are":"area"}"""
-x
+
   Before(){_: Scenario ⇒
   deleteAll()
   }

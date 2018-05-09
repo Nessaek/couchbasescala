@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: reactivecouchbase-rs-core
+Implementation-Version: 1.2.1
+Specification-Vendor: org.reactivecouchbase
+Specification-Title: reactivecouchbase-rs-core
+Implementation-Vendor-Id: org.reactivecouchbase
+Specification-Version: 1.2.1
+Implementation-URL: https://github.com/ReactiveCouchbase/reactivecouch
+ base-rs-core
+Implementation-Vendor: org.reactivecouchbase
+

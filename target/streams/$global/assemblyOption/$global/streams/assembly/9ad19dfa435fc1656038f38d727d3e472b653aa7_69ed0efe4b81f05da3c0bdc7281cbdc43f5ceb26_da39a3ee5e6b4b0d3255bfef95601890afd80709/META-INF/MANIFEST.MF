@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-License: http://xstream.codehaus.org/license.html, http://www.a
+ pache.org/licenses/LICENSE-2.0
+Bundle-SymbolicName: info.cukes.cucumber-jvm-deps
+Export-Package: cucumber.deps.com.thoughtworks.xstream;version=1.0.5,c
+ ucumber.deps.com.thoughtworks.xstream.annotations;version=1.0.5,cucum
+ ber.deps.com.thoughtworks.xstream.converters;version=1.0.5,cucumber.d
+ eps.com.thoughtworks.xstream.converters.reflection;version=1.0.5,cucu
+ mber.deps.com.thoughtworks.xstream.core;version=1.0.5,cucumber.deps.c
+ om.thoughtworks.xstream.io;version=1.0.5,cucumber.deps.com.thoughtwor
+ ks.xstream.mapper;version=1.0.5,cucumber.deps.difflib;version=1.0.5,c
+ ucumber.deps.com.thoughtworks.xstream.converters.extended;version=1.0
+ .5,cucumber.deps.com.thoughtworks.xstream.converters.enums;version=1.
+ 0.5,cucumber.deps.com.thoughtworks.xstream.converters.basic;version=1
+ .0.5
+Bundle-Name: Cucumber-JVM Repackaged Dependencies
+Bundle-Version: 1.0.5
+Archiver-Version: Plexus Archiver
+Built-By: aslakhellesoy
+Bundle-ManifestVersion: 2
+DynamicImport-Package: *
+Created-By: Apache Maven 3.3.3
+Build-Jdk: 1.8.0_45
+

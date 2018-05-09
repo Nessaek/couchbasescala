@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/nke09/couchbasescala/src/main/scala/com/nk/crud/routes/CrudRoute.scala:18:16: object tools is not a member of package com.sun[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.sun.tools.internal.xjc.reader.xmlschema.bindinfo.BIConversion.User[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

@@ -13,7 +13,7 @@ class AuthenticationService extends CouchbaseRepository {
   def myUserPassAuthenticator(credentials: Credentials): Future[Option[String]] =
 Future {
       credentials match {
-        case p@Credentials.Provided(id) if p.verify(sys.env("COUCH_SCALA_PASSWORD")) => Some(id)
+        case p@Credentials.Provided(id) if p.verify("passw1rd") => Some(id)
         case _ => None
       }
 

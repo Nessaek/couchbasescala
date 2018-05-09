@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1498489167166
+Bundle-Description: akka-http-jackson
+Bundle-DocURL: http://doc.akka.io/api/akka-http/10.0.9/
+Bundle-License: https://opensource.org/licenses/Apache-2.0;description=A
+ pache-2.0
+Bundle-ManifestVersion: 2
+Bundle-Name: akka-http-jackson
+Bundle-SymbolicName: com.typesafe.akka.http.jackson
+Bundle-Vendor: Lightbend
+Bundle-Version: 10.0.9
+Created-By: 1.8.0_31 (Oracle Corporation)
+Export-Package: akka.http.javadsl.marshallers.jackson;uses:="akka.http.j
+ avadsl.marshalling,akka.http.javadsl.model,akka.http.javadsl.unmarshall
+ ing,akka.util,com.fasterxml.jackson.databind";version="10.0.9"
+Import-Package: akka.http.javadsl.marshalling;version="[10.0.9,10.1)",ak
+ ka.http.javadsl.model;version="[10.0.9,10.1)",akka.http.javadsl.unmarsh
+ alling;version="[10.0.9,10.1)",akka.util;version="[2.4.19,3)",com.faste
+ rxml.jackson.core;version="[2.8,3)",com.fasterxml.jackson.databind;vers
+ ion="[2.8,3)",akka
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-2.4.0.201411031534

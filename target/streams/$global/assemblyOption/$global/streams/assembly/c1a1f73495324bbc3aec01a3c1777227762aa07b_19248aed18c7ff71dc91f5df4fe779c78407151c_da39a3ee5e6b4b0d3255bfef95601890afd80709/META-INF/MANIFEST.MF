@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: akka-http-json4s
+Implementation-Version: 1.16.0
+Specification-Vendor: Heiko Seeberger
+Specification-Title: akka-http-json4s
+Implementation-Vendor-Id: de.heikoseeberger
+Specification-Version: 1.16.0
+Implementation-URL: https://github.com/hseeberger/akka-http-json
+Implementation-Vendor: Heiko Seeberger
+

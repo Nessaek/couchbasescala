@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0mExecuting Native docker build --force-rm -t couchbasescala:0.1 .[0m
+[0m[[0m[0mdebug[0m] [0m[0mWorking directory /Users/nke09/couchbasescala/target/docker/stage[0m
+[0m[[0m[0minfo[0m] [0m[0mSending build context to Docker daemon  53.35MB[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 1/6 : FROM openjdk:jre-alpine[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> b1bd879ca9b3[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 2/6 : WORKDIR /opt/docker[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> a7983d834bb8[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 3/6 : ADD --chown=daemon:daemon opt /opt[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 4565cf944bef[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 4/6 : USER daemon[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in e52d6c3b8261[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container e52d6c3b8261[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> ac54af8e8318[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 5/6 : ENTRYPOINT ["bin/couchbasescala"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 57d70a1de36a[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 57d70a1de36a[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 10028e086769[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 6/6 : CMD [][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in aaf509f535cc[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container aaf509f535cc[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 82b3a633373d[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully built 82b3a633373d[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully tagged couchbasescala:0.1[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt image couchbasescala:0.1[0m

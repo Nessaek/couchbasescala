@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-License: http://www.opensource.org/licenses/mit-license
+Bundle-SymbolicName: info.cukes.cucumber-junit
+Archiver-Version: Plexus Archiver
+Built-By: aslakhellesoy
+Bnd-LastModified: 1437658876496
+Bundle-ManifestVersion: 2
+Import-Package: cucumber.api;version="[1.2,2)",cucumber.runtime;versio
+ n="[1.2,2)",cucumber.runtime.io;version="[1.2,2)",cucumber.runtime.mo
+ del;version="[1.2,2)",gherkin.formatter;version="[2.12,3)",gherkin.fo
+ rmatter.model;version="[2.12,3)",junit.framework,org.junit.internal.r
+ unners.model,org.junit.runner,org.junit.runner.notification,org.junit
+ .runners,org.junit.runners.model
+Tool: Bnd-1.50.0
+Export-Package: cucumber.runtime.junit;uses:="cucumber.runtime,org.jun
+ it.runners,org.junit.runners.model,org.junit.runner.notification,cucu
+ mber.runtime.model,org.junit.runner,gherkin.formatter.model,gherkin.f
+ ormatter,cucumber.api,org.junit.internal.runners.model,junit.framewor
+ k";version="1.2.4",cucumber.api.junit;uses:="org.junit.runners,org.ju
+ nit.runner.notification,cucumber.runtime.model,cucumber.runtime.io,cu
+ cumber.runtime.junit,cucumber.runtime,org.junit.runners.model,org.jun
+ it.runner,gherkin.formatter";version="1.2.4"
+Bundle-Name: Cucumber-JVM: JUnit
+Bundle-Version: 1.2.4
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_45
+

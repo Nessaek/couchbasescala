@@ -6,8 +6,8 @@
 		module="couchbasescala$sources"
 		revision="0.1"
 		conf="runtime-internal"
-		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20180508092919"/>
+		confs="compile, runtime, test, provided, optional, universal, universal-docs, universal-src, docker, windows, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20180509120606"/>
 	<dependencies>
 		<module organisation="org.json4s" name="json4s-ext_2.12">
 			<revision name="3.5.2" status="release" pubdate="20170504213337" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="62">

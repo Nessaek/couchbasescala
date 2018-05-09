@@ -1,0 +1,9 @@
+sbt docker:publishLocal
+docker:publishLocal
+scala target/scala-2.12/couchbasescala_2.12-0.1.jar
+scala /Users/nke09/couchbasescala/target/scala-2.12/couchbasescala_2.12-0.1.jar
+scala /target/scala-2.12/couchbasescala_2.12-0.1.jar
+scala target/scala-2.12/couchbasescala_2.12-0.1.jar
+scala
+scala target/scala-2.12/couchbasescala_2.12-0.1.jar
+scala target/scala-2.12/couchbasescala_2.12-0.1.jar 
