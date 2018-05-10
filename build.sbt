@@ -27,7 +27,8 @@ libraryDependencies ++= {
     "com.typesafe.scala-logging" %% "scala-logging" % "3.9.0",
     "com.typesafe.akka" %% "akka-http-spray-json" % "10.1.1",
     "org.reactivecouchbase" %% "reactivecouchbase-rs-core" % "1.2.1",
-
+     "com.softwaremill.akka-http-session" %% "core" % "0.5.5",
+     "com.softwaremill.akka-http-session" %% "jwt"  % "0.5.5",
     //TESTING
     "io.cucumber" %% "cucumber-scala" % "2.0.1" % "test",
     "info.cukes" % "cucumber-junit" % "1.2.4",
