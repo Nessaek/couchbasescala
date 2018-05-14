@@ -1,8 +1,6 @@
 package com.nk.crud.services
 
-import akka.actor.ActorSystem
 import akka.http.scaladsl.server.directives._
-import akka.stream.ActorMaterializer
 import com.nk.crud.repo.CouchbaseRepository
 
 import scala.concurrent.Future

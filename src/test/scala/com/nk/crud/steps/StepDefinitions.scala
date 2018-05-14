@@ -2,18 +2,16 @@ package com.nk.crud.steps
 
 import akka.actor.ActorSystem
 
-import scala.util.{Failure, Success}
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.model._
-import akka.http.scaladsl.model.headers.{Authorization, BasicHttpCredentials}
+import akka.http.scaladsl.model.headers.BasicHttpCredentials
 import akka.stream.ActorMaterializer
-import com.nk.crud.model.Activity
 import com.nk.crud.repo.CouchbaseRepository
 import cucumber.api.Scenario
 import cucumber.api.scala.{EN, ScalaDsl}
 
 import scala.concurrent.duration._
-import scala.concurrent.{Await, Future}
+import scala.concurrent.Await
 import scala.language.postfixOps
 import org.scalatest.Matchers._
 
