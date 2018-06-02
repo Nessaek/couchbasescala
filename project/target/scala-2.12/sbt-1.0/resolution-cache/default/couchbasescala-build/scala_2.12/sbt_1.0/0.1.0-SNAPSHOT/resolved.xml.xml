@@ -4,7 +4,11 @@
 		module="couchbasescala-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
+<<<<<<< HEAD
 		publication="20180515093143"
+=======
+		publication="20180514165416"
+>>>>>>> master
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

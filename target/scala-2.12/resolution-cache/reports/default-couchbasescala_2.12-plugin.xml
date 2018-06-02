@@ -6,8 +6,13 @@
 		module="couchbasescala_2.12"
 		revision="0.1"
 		conf="plugin"
+<<<<<<< HEAD
 		confs="compile, runtime, test, provided, optional, universal, universal-docs, universal-src, docker, windows, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
 		date="20180515093157"/>
+=======
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20180514165422"/>
+>>>>>>> master
 	<dependencies>
 	</dependencies>
 </ivy-report>
