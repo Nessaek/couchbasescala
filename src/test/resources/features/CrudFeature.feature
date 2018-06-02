@@ -27,3 +27,7 @@ Feature: Customer activities can be capture and modified by api
 
    When the customer posts a suggestion with malformed json
    Then the application should send back 400
+
+    When the customer posts a put request to disable an item
+    Then the API should send back a 201 response
+    And the item should be marked as false

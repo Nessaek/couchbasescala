@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    build: .
+    restart: always
+    container_name: "couchscala"
+    ports:
+    - "8080:8080"

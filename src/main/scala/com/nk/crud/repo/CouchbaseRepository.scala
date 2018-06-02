@@ -44,7 +44,7 @@ class CouchbaseRepository extends Directives with DefaultJsonProtocol {
     findOne(task.id).flatMap{
       case None => CouchDriver.plannerBucket.insert(task.id,task).map(result =>
         Some(result))
-      case Some(id) => Future(None)
+      case Some(_) => Future(None)
     }
 
 
@@ -56,25 +56,33 @@ class CouchbaseRepository extends Directives with DefaultJsonProtocol {
 
   }
 
-  def deleteAll():  Future[scala.Boolean] = {
+  def deleteAll(): Future[scala.Boolean] = {
    CouchDriver.plannerBucket.withManager(_.flush()).map(result => result)
   }
 
 
-  def updateOne(docId:String,update: TaskUpdate): Future[Option[Task]] = {
+  def updateOne(docId:String,update: Option[TaskUpdate]): Future[Option[Task]] = {
 
     def updateEntity(taskEntity: Task): Task = {
-      val task = update.task.getOrElse(taskEntity.task)
-      val area = update.area.getOrElse(taskEntity.area)
-      Task(docId, task, area)
+
+      update match {
+        case None =>  val task = taskEntity.task
+          val area = taskEntity.area
+          val enabled = if(taskEntity.enabled == 1) 0 else 1
+          Task(docId, task, area, enabled)
+
+        case Some(someUpdate) =>  val task = someUpdate.task.getOrElse(taskEntity.task)
+          val area = someUpdate.area.getOrElse(taskEntity.area)
+          val enabled = taskEntity.enabled
+          Task(docId, task, area, enabled)
+      }
+
     }
 
     findOne(docId).flatMap {
-      case None => Future {
-        None
-      } // No question found, nothing to update
-      case Some(task) =>
-        val updatedTask = updateEntity(task)
+      case None => Future { None }
+      case Some(foundTask) =>
+        val updatedTask = updateEntity(foundTask)
         deleteOne(docId).flatMap { _ =>
           postOne(updatedTask).map(_ => Some(updatedTask))
         }

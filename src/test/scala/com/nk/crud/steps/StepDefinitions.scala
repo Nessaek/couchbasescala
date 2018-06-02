@@ -36,6 +36,7 @@ class StepDefinitions extends ScalaDsl with EN {
   var output5: HttpResponse = _
 
   var output6: HttpResponse = _
+  var output7: HttpResponse = _
 
   val correctCreds = BasicHttpCredentials("nesa", "passw1rd")
 
@@ -63,7 +64,7 @@ class StepDefinitions extends ScalaDsl with EN {
 
   }
 
-  Then("the application should return (\\d+)$") { (response: Int) =>
+  Then("the application should return (\\d+)$") {response: Int =>
   output1.status.intValue() should be(response)
   }
 
@@ -80,7 +81,7 @@ class StepDefinitions extends ScalaDsl with EN {
       output2 = updateOne("1","""{"id":"1","activity":"updatedactivity","area":"updatedarea"}""")
   }
 
-  Then("the API should send back (\\d+)$"){ (response: Int) =>
+  Then("the API should send back (\\d+)$"){ response: Int =>
     output2.status.intValue() should be (response)
 
   }
@@ -89,7 +90,7 @@ class StepDefinitions extends ScalaDsl with EN {
     output2 = updateOne("2","""{"id":"1","activity":"updatedactivity","area":"updatedarea"}""")
   }
 
-  Then("the api should return a 404 status") {(response:Int) =>
+  Then("the api should return a 404 status") {response:Int =>
 
     output2.status.intValue() should be (response)
 
@@ -101,7 +102,7 @@ class StepDefinitions extends ScalaDsl with EN {
 
   }
 
-  Then("the API should return (\\d+)$"){ (response: Int) =>
+  Then("the API should return (\\d+)$"){ response: Int =>
   output3.status.intValue() should be (response)
   }
 
@@ -110,7 +111,7 @@ class StepDefinitions extends ScalaDsl with EN {
    output4 = deleteOne("2")
   }
 
-  Then("the API should send back a (\\d+) response"){ (response: Int) =>
+  Then("the API should send back a (\\d+) response"){response: Int =>
     output4.status.intValue() should be (response)
   }
 
@@ -125,7 +126,7 @@ class StepDefinitions extends ScalaDsl with EN {
 
   }
 
-  Then("the application should send (\\d+)$"){ (response:Int) =>
+  Then("the application should send (\\d+)$"){ response:Int =>
   output5.status.intValue() should be (response)
   }
 
@@ -138,8 +139,20 @@ class StepDefinitions extends ScalaDsl with EN {
     output6 = postJson(correctCreds,invalidJson)
   }
 
-  Then("the application should send back (\\d+)$"){ (response:Int) =>
+  Then("the application should send back (\\d+)$"){ response:Int =>
   output6.status.intValue() should be (response)
+  }
+
+  When("the customer posts a put request to disable an item"){() =>
+//    output7 = Await.result(Http().singleRequest(HttpRequest(uri = Uri(s"http://localhost:8080/suggestion/security/disable/$id"), method = HttpMethods.PUT).addCredentials(correctCreds)),4.seconds)
+  }
+
+  Then("the API should send back a 201 response"){response:Int =>
+    output7.status.intValue() should be (response)
+  }
+
+  And("the item should be marked as false"){
+//    output7.entity should include("false")
   }
 
 

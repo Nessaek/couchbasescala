@@ -16,8 +16,8 @@ import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 
 trait FormatMe extends SprayJsonSupport with DefaultJsonProtocol{
-  implicit val taskFormat = jsonFormat3(Task)
-  implicit val taskUpdateFormat = jsonFormat2(TaskUpdate)
+  implicit val taskFormat = jsonFormat4(Task)
+  implicit val taskUpdateFormat = jsonFormat3(TaskUpdate)
 
 }
 
@@ -59,15 +59,18 @@ class CouchRoute extends Directives with LazyLogging with FormatMe {
                   }
                 }
               } ~ put {
-                path(Segment) { id =>
+                  pathPrefix("disable"){
+                    path(Segment) { id =>
+                      complete(201, couchbaseRepository.updateOne(id,None))
+                    }
+                  } ~ path(Segment) { id =>
+                  println("maybe here")
                   entity(as[TaskUpdate]) { task =>
-                    complete(201, couchbaseRepository.updateOne(id, task))
-
+                    complete(201, couchbaseRepository.updateOne(id,Some(task)))
                   }
-
                 }
 
-              } ~
+                } ~
                 delete {
                   path(Segment) {
                     id => {

@@ -13,7 +13,7 @@ object Main extends App {
   val routeClass: CouchRoute = new CouchRoute
 
 
-  Http().bindAndHandle(routeClass.crudRoute, "localhost", 8080) map { binding =>
+  Http().bindAndHandle(routeClass.crudRoute, "0.0.0.0", 8090) map { binding =>
     println(s"REST interface bound to ${binding.localAddress}") } recover { case ex =>
     println(s"REST interface could not bind to port", ex.getMessage)
   }

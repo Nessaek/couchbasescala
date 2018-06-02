@@ -1,4 +1,41 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/nke09/couchbasescala/src/main/scala/com/nk/crud/routes/CrudRoute.scala:18:16: object tools is not a member of package com.sun[0m
-[0m[[0m[31merror[0m] [0m[0mimport com.sun.tools.internal.xjc.reader.xmlschema.bindinfo.BIConversion.User[0m
-[0m[[0m[31merror[0m] [0m[0m               ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/nke09/couchbasescala/src/main/scala/com/nk/crud/routes/CrudRoute.scala:19:41: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : com.nk.crud.model.Task.type[0m
+[0m[[0m[31merror[0m] [0m[0m required: (?, ?, ?) => ?[0m
+[0m[[0m[31merror[0m] [0m[0m Note: implicit value taskFormat is not applicable here because it comes after the application point and it lacks an explicit result type[0m
+[0m[[0m[31merror[0m] [0m[0m  implicit val taskFormat = jsonFormat3(Task)[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/nke09/couchbasescala/src/main/scala/com/nk/crud/routes/CrudRoute.scala:20:47: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : com.nk.crud.model.TaskUpdate.type[0m
+[0m[[0m[31merror[0m] [0m[0m required: (?, ?) => ?[0m
+[0m[[0m[31merror[0m] [0m[0m Note: implicit value taskUpdateFormat is not applicable here because it comes after the application point and it lacks an explicit result type[0m
+[0m[[0m[31merror[0m] [0m[0m  implicit val taskUpdateFormat = jsonFormat2(TaskUpdate)[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/nke09/couchbasescala/src/main/scala/com/nk/crud/routes/CrudRoute.scala:44:34: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Option[com.nk.crud.model.Task][0m
+[0m[[0m[31merror[0m] [0m[0m required: akka.http.scaladsl.marshalling.ToResponseMarshallable[0m
+[0m[[0m[31merror[0m] [0m[0m                        complete(result)[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/nke09/couchbasescala/src/main/scala/com/nk/crud/routes/CrudRoute.scala:50:56: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Seq[com.nk.crud.model.Task][0m
+[0m[[0m[31merror[0m] [0m[0m required: akka.http.scaladsl.marshalling.ToResponseMarshallable[0m
+[0m[[0m[31merror[0m] [0m[0m                      case Success(result) => complete(result)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/nke09/couchbasescala/src/main/scala/com/nk/crud/routes/CrudRoute.scala:55:26: could not find implicit value for parameter um: akka.http.scaladsl.unmarshalling.FromRequestUnmarshaller[com.nk.crud.model.Task][0m
+[0m[[0m[31merror[0m] [0m[0m                entity(as[Task]) { task =>[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/nke09/couchbasescala/src/main/scala/com/nk/crud/routes/CrudRoute.scala:57:54: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Option[com.nk.crud.model.Task][0m
+[0m[[0m[31merror[0m] [0m[0m required: akka.http.scaladsl.marshalling.ToResponseMarshallable[0m
+[0m[[0m[31merror[0m] [0m[0m                    case Success(result) => complete(result)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/nke09/couchbasescala/src/main/scala/com/nk/crud/routes/CrudRoute.scala:63:28: could not find implicit value for parameter um: akka.http.scaladsl.unmarshalling.FromRequestUnmarshaller[com.nk.crud.model.TaskUpdate][0m
+[0m[[0m[31merror[0m] [0m[0m                  entity(as[TaskUpdate]) { task =>[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/nke09/couchbasescala/src/main/scala/com/nk/crud/routes/CrudRoute.scala:64:64: too many arguments (2) for method complete: (m: => akka.http.scaladsl.marshalling.ToResponseMarshallable)akka.http.scaladsl.server.StandardRoute[0m
+[0m[[0m[31merror[0m] [0m[0m                    complete(201, couchbaseRepository.updateOne(id, task))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/nke09/couchbasescala/src/main/scala/com/nk/crud/repo/CouchbaseRepository.scala:69:11: not enough arguments for method apply: (id: String, task: String, area: String, enabled: Boolean)com.nk.crud.model.Task in object Task.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter enabled.[0m
+[0m[[0m[31merror[0m] [0m[0m      Task(docId, task, area)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m9 errors found[0m

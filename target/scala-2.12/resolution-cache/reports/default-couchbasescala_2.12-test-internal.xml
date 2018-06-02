@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, universal, universal-docs, universal-src, docker, windows, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20180510114335"/>
+		date="20180515093157"/>
 	<dependencies>
 		<module organisation="io.cucumber" name="cucumber-scala_2.12">
 			<revision name="2.0.1" status="release" pubdate="20170917103000" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="68">
