@@ -1,8 +1,11 @@
 package com.nk.crud.repo
 
-import com.nk.crud.model.{Task,TaskUpdate}
+import com.nk.crud.model.{Task, TaskUpdate}
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
+import com.couchbase.client.java.bucket.BucketType
+import com.couchbase.client.java.cluster.{BucketSettings, ClusterManager, DefaultBucketSettings}
+import com.couchbase.client.java.{Cluster, CouchbaseCluster}
 import com.typesafe.config.ConfigFactory
 import org.reactivecouchbase.rs.scaladsl.{N1qlQuery, ReactiveCouchbase}
 import spray.json.DefaultJsonProtocol
@@ -30,6 +33,7 @@ class CouchbaseRepository extends Directives with DefaultJsonProtocol {
 
 
   def findOne(docId: String): Future[Option[Task]] = {
+
     CouchDriver.plannerBucket.get(docId)
   }
 
@@ -53,6 +57,8 @@ class CouchbaseRepository extends Directives with DefaultJsonProtocol {
 
   def deleteOne(docId: String): Future[Boolean] = {
      CouchDriver.plannerBucket.remove(docId)
+
+
 
   }
 
@@ -94,6 +100,19 @@ class CouchbaseRepository extends Directives with DefaultJsonProtocol {
 
 object CouchDriver {
 
+  def createBucketIfDoesNotExist(): Unit ={
+
+    val cluster: Cluster = CouchbaseCluster.create()
+    val bucketSettings: BucketSettings = new DefaultBucketSettings.Builder().`type`(BucketType.COUCHBASE).name("planner").quota(100)
+    val clusterManager: ClusterManager = cluster.clusterManager("Administrator","password")
+
+    val bucketSearch: BucketSettings = clusterManager.getBucket("planner")
+
+    bucketSearch match {
+      case null =>  {clusterManager.insertBucket(bucketSettings)}
+    }
+  }
+
   val configString: String = {
     """
       |buckets {
@@ -109,7 +128,6 @@ object CouchDriver {
     """.stripMargin
   }
   val driver = ReactiveCouchbase(ConfigFactory.parseString(configString))
-
 
   def plannerBucket = driver.bucket("planner")
 }

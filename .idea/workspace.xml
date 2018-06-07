@@ -2,10 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="612d0c21-6d2d-4ce8-8bfd-beaf357178a4" name="Default" comment="">
-<<<<<<< HEAD
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker-compose.yml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/couchbasescala.iml" afterPath="$PROJECT_DIR$/.idea/modules/couchbasescala.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
+      <change beforePath="$PROJECT_DIR$/gitignore" afterPath="$PROJECT_DIR$/gitignore" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$204e0838ed6a3cb6fba1$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$204e0838ed6a3cb6fba1.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$204e0838ed6a3cb6fba1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$cd2493bf3c72331507b6$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$cd2493bf3c72331507b6.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$cd2493bf3c72331507b6.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$dc203ae6586c79c6ed58$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$dc203ae6586c79c6ed58.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$dc203ae6586c79c6ed58.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$ecd4b836c9af7d7ba708$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$ecd4b836c9af7d7ba708.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$ecd4b836c9af7d7ba708.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$479e06f8305cf5753bb5$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$479e06f8305cf5753bb5.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$479e06f8305cf5753bb5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5de1567e7cba1c9f3a60$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5de1567e7cba1c9f3a60.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5de1567e7cba1c9f3a60.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$66d457e4cacd1a5165f2$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$66d457e4cacd1a5165f2.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$66d457e4cacd1a5165f2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$86db93766a9a3012e45f$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$86db93766a9a3012e45f.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$86db93766a9a3012e45f.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$98e47c412f34a1f354cc$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$98e47c412f34a1f354cc.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$98e47c412f34a1f354cc.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b7f3d78072926ae08e2a$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b7f3d78072926ae08e2a.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b7f3d78072926ae08e2a.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ba5b6dc82ce37846a2ad$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ba5b6dc82ce37846a2ad.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ba5b6dc82ce37846a2ad.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bced6e141ac66dce8ad3$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bced6e141ac66dce8ad3.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bced6e141ac66dce8ad3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c61461d71e4c576c3051$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c61461d71e4c576c3051.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c61461d71e4c576c3051.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cc4f6bf5db68a8a21058$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cc4f6bf5db68a8a21058.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cc4f6bf5db68a8a21058.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d3c9e74a972758d76b8e$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d3c9e74a972758d76b8e.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d3c9e74a972758d76b8e.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f60f04c955a230986ca4$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f60f04c955a230986ca4.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f60f04c955a230986ca4.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/couchbasescala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/couchbasescala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/couchbasescala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/couchbasescala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-couchbasescala-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-couchbasescala-build-compile-internal.xml" />
@@ -22,23 +70,20 @@
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/Main.scala" afterPath="$PROJECT_DIR$/src/main/scala/Main.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/nk/crud/model/Task.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/nk/crud/model/Task.scala" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/nk/crud/repo/CouchbaseRepository.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/nk/crud/repo/CouchbaseRepository.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/nk/crud/routes/CrudRoute.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/nk/crud/routes/CrudRoute.scala" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/CrudFeature.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/CrudFeature.feature" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/com/nk/crud/steps/StepDefinitions.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/nk/crud/steps/StepDefinitions.scala" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/app-assembly.jar" afterPath="$PROJECT_DIR$/target/scala-2.12/app-assembly.jar" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Main$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Main$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/crud/model/Task$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/crud/model/Task$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/crud/model/Task.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/crud/model/Task.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/crud/model/TaskUpdate$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/crud/model/TaskUpdate$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/crud/model/TaskUpdate.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/crud/model/TaskUpdate.class" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/crud/repo/CouchDriver$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/crud/repo/CouchDriver$.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/crud/repo/CouchbaseRepository$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/crud/repo/CouchbaseRepository$.class" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/crud/repo/CouchbaseRepository.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/crud/repo/CouchbaseRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/crud/routes/CouchRoute$$anonfun$myExceptionHandler$1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/crud/routes/CouchRoute$$anonfun$myExceptionHandler$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/crud/routes/CouchRoute.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/crud/routes/CouchRoute.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/crud/routes/FormatMe.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/nk/crud/routes/FormatMe.class" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/couchbasescala$sources/0.1/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/couchbasescala$sources/0.1/resolved.xml.properties" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/couchbasescala$sources/0.1/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/couchbasescala$sources/0.1/resolved.xml.xml" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/couchbasescala_2.12/0.1/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/couchbasescala_2.12/0.1/resolved.xml.properties" />
@@ -81,70 +126,11 @@
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-universal-src.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-universal-src.xml" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-universal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-universal.xml" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-windows.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-windows.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/com/nk/crud/steps/StepDefinitions.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/com/nk/crud/steps/TestRunner$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/com/nk/crud/steps/TestRunner.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/features/CrudFeature.feature" afterPath="$PROJECT_DIR$/target/scala-2.12/test-classes/features/CrudFeature.feature" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/assembly/$global/streams/assembly-inputs" afterPath="$PROJECT_DIR$/target/streams/$global/assembly/$global/streams/assembly-inputs" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/assembly/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/assembly/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/dce275ab22b900d63146bc2270cd2ea9f76cb2c4_dir/Main$.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/dce275ab22b900d63146bc2270cd2ea9f76cb2c4_dir/Main$.class" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/dce275ab22b900d63146bc2270cd2ea9f76cb2c4_dir/com/nk/crud/model/Activity$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/dce275ab22b900d63146bc2270cd2ea9f76cb2c4_dir/com/nk/crud/model/Activity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/dce275ab22b900d63146bc2270cd2ea9f76cb2c4_dir/com/nk/crud/model/Session$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/dce275ab22b900d63146bc2270cd2ea9f76cb2c4_dir/com/nk/crud/model/Session.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/dce275ab22b900d63146bc2270cd2ea9f76cb2c4_dir/com/nk/crud/repo/CouchDriver$.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/dce275ab22b900d63146bc2270cd2ea9f76cb2c4_dir/com/nk/crud/repo/CouchDriver$.class" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/dce275ab22b900d63146bc2270cd2ea9f76cb2c4_dir/com/nk/crud/repo/CouchbaseRepository$.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/dce275ab22b900d63146bc2270cd2ea9f76cb2c4_dir/com/nk/crud/repo/CouchbaseRepository$.class" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/dce275ab22b900d63146bc2270cd2ea9f76cb2c4_dir/com/nk/crud/repo/CouchbaseRepository.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/dce275ab22b900d63146bc2270cd2ea9f76cb2c4_dir/com/nk/crud/repo/CouchbaseRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/dce275ab22b900d63146bc2270cd2ea9f76cb2c4_dir/com/nk/crud/routes/CouchRoute$$anon$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/dce275ab22b900d63146bc2270cd2ea9f76cb2c4_dir/com/nk/crud/routes/CouchRoute$$anonfun$myExceptionHandler$1.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/dce275ab22b900d63146bc2270cd2ea9f76cb2c4_dir/com/nk/crud/routes/CouchRoute$$anonfun$myExceptionHandler$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/dce275ab22b900d63146bc2270cd2ea9f76cb2c4_dir/com/nk/crud/routes/CouchRoute.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/dce275ab22b900d63146bc2270cd2ea9f76cb2c4_dir/com/nk/crud/routes/CouchRoute.class" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/dce275ab22b900d63146bc2270cd2ea9f76cb2c4_dir/com/nk/crud/routes/FormatMe.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/dce275ab22b900d63146bc2270cd2ea9f76cb2c4_dir/com/nk/crud/routes/FormatMe.class" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/dce275ab22b900d63146bc2270cd2ea9f76cb2c4_dir/com/nk/crud/services/AuthenticationService.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/dce275ab22b900d63146bc2270cd2ea9f76cb2c4_dir/com/nk/crud/services/AuthenticationService.class" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/sbtMergeTarget-8589cb720e91c0cd8c9435991688d8c79c7189f9.tmp" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/sbtMergeTarget-8589cb720e91c0cd8c9435991688d8c79c7189f9.tmp" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/dependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/fullClasspath/$global/streams/export" />
-=======
-      <change afterPath="$PROJECT_DIR$/gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/couchbasescala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/couchbasescala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/couchbasescala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/couchbasescala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-couchbasescala-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-couchbasescala-build-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-couchbasescala-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-couchbasescala-build-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-couchbasescala-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-couchbasescala-build-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-couchbasescala-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-couchbasescala-build-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-couchbasescala-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-couchbasescala-build-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-couchbasescala-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-couchbasescala-build-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-couchbasescala-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-couchbasescala-build-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-couchbasescala-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-couchbasescala-build-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-couchbasescala-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-couchbasescala-build-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-couchbasescala-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-couchbasescala-build-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-couchbasescala-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-couchbasescala-build-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/couchbasescala_2.12/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/couchbasescala_2.12/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/couchbasescala_2.12/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/couchbasescala_2.12/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-couchbasescala_2.12-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
->>>>>>> master
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -158,8 +144,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/couchbasescala$Main.coverage" NAME="Main Coverage Results" MODIFIED="1524840136354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/couchbasescala$tests.coverage" NAME="tests Coverage Results" MODIFIED="1524573988411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/couchbasescala$Main.coverage" NAME="Main Coverage Results" MODIFIED="1524840136354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -185,16 +171,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CrudRoute.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CrudRoute.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/crud/routes/CrudRoute.scala">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="333">
+            <state relative-caret-position="735">
               <caret line="61" column="40" lean-forward="false" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
-=======
-            <state relative-caret-position="54">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
->>>>>>> master
               <folding>
                 <element signature="e#29#100#0" expanded="true" />
               </folding>
@@ -202,7 +183,6 @@
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
       <file leaf-file-name="application.conf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
           <provider selected="true" editor-type-id="text-editor">
@@ -216,75 +196,83 @@
       <file leaf-file-name="CouchbaseRepository.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/crud/repo/CouchbaseRepository.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="86" column="58" lean-forward="false" selection-start-line="86" selection-start-column="58" selection-end-line="86" selection-end-column="58" />
+            <state relative-caret-position="106">
+              <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
               <folding>
-                <element signature="e#26#68#0" expanded="true" />
+                <element signature="e#26#69#0" expanded="true" />
               </folding>
-=======
-      <file leaf-file-name="CouchbaseRepository.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/crud/repo/CouchbaseRepository.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="71" column="7" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
->>>>>>> master
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sbt">
+      <file leaf-file-name="Main.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/Main.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+              <folding>
+                <element signature="e#1#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
               <folding />
-=======
-      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ReadMe.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="150">
-                <caret line="10" selection-start-line="10" selection-end-line="10" />
-              </first_editor>
-              <second_editor />
->>>>>>> master
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cluster.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/com.couchbase.client/java-client/srcs/java-client-2.5.5-sources.jar!/com/couchbase/client/java/Cluster.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3735">
+              <caret line="282" column="19" lean-forward="false" selection-start-line="282" selection-start-column="19" selection-end-line="282" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CouchbaseCluster.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/com.couchbase.client/java-client/srcs/java-client-2.5.5-sources.jar!/com/couchbase/client/java/CouchbaseCluster.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5130">
+              <caret line="394" column="26" lean-forward="false" selection-start-line="394" selection-start-column="26" selection-end-line="394" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bucket.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.reactivecouchbase/reactivecouchbase-rs-core_2.12/srcs/reactivecouchbase-rs-core_2.12-1.2.1-sources.jar!/org/reactivecouchbase/rs/scaladsl/Bucket.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9105">
+              <caret line="634" column="6" lean-forward="false" selection-start-line="634" selection-start-column="6" selection-end-line="634" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="plugins.sbt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
-=======
-      <file leaf-file-name="gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
->>>>>>> master
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="Task.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/crud/model/Task.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="84" lean-forward="false" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="84" />
-              <folding />
-=======
-      <file leaf-file-name="TestRunner.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/com/nk/crud/steps/TestRunner.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
->>>>>>> master
             </state>
           </provider>
         </entry>
@@ -361,18 +349,14 @@
         <option value="$PROJECT_DIR$/src/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/scala/com/nk/crud/services/AuthenticationService.scala" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/src/test/resources/features/CrudFeature.feature" />
-        <option value="$PROJECT_DIR$/src/main/scala/Main.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/nk/crud/model/Task.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/nk/crud/repo/CouchbaseRepository.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/nk/crud/steps/StepDefinitions.scala" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/scala/com/nk/crud/routes/CrudRoute.scala" />
-=======
-        <option value="$PROJECT_DIR$/gitignore" />
->>>>>>> master
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/nk/crud/repo/CouchbaseRepository.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Main.scala" />
       </list>
     </option>
   </component>
@@ -385,13 +369,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-<<<<<<< HEAD
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-=======
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="44" />
->>>>>>> master
     <option name="width" value="1680" />
     <option name="height" value="943" />
   </component>
@@ -402,19 +381,20 @@
     <option name="STATE" value="1" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-=======
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
->>>>>>> master
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -422,7 +402,6 @@
               <item name="couchbasescala" type="b2602c69:ProjectViewProjectNode" />
               <item name="couchbasescala" type="462c0819:PsiDirectoryNode" />
             </path>
-<<<<<<< HEAD
             <path>
               <item name="couchbasescala" type="b2602c69:ProjectViewProjectNode" />
               <item name="couchbasescala" type="462c0819:PsiDirectoryNode" />
@@ -509,17 +488,14 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="steps" type="462c0819:PsiDirectoryNode" />
             </path>
-=======
->>>>>>> master
           </expand>
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
-=======
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="Scratches" />
->>>>>>> master
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -559,22 +535,26 @@
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet" factoryName="Applet">
-<<<<<<< HEAD
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
       <module />
-=======
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
->>>>>>> master
     </configuration>
     <configuration name="FabsMain" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="FabsMain" />
-      <module name="couchbasescala" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="couchbasescala" />
+      <envs />
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-<<<<<<< HEAD
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <option name="VM_PARAMETERS" />
@@ -586,42 +566,50 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="couchbasescala" />
-=======
->>>>>>> master
       <envs>
         <env name="COUCH_SCALA_PASSWORD" value="passw1rd" />
       </envs>
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="couchbasescala" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
     <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true">
-<<<<<<< HEAD
       <extension name="coverage" enabled="false" merge="false" runner="idea">
-=======
-      <option name="MAIN_CLASS_NAME" value="com.nk.crud.steps.TestRunner" />
-      <module name="couchbasescala" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
->>>>>>> master
         <pattern>
           <option name="PATTERN" value="com.nk.crud.steps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="MAIN_CLASS_NAME" value="com.nk.crud.steps.TestRunner" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="couchbasescala" />
+      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
     </configuration>
     <configuration name="tests" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-<<<<<<< HEAD
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="myFilePath" />
-=======
->>>>>>> master
       <option name="GLUE" value="com.nk.crud" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
       <option name="MAIN_CLASS_NAME" value="com.nk.crud.steps.TestRunner" />
-<<<<<<< HEAD
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -630,11 +618,12 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-=======
->>>>>>> master
       <module name="couchbasescala" />
+      <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -644,13 +633,17 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <envs />
       <patterns />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -663,16 +656,18 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
+      <envs />
       <properties />
       <listeners />
     </configuration>
-<<<<<<< HEAD
     <configuration name="couchbasescala/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true">
       <deployment type="dockerfile">
         <settings>
@@ -696,23 +691,11 @@
         <item index="1" class="java.lang.String" itemvalue="Docker.couchbasescala/Dockerfile" />
         <item index="2" class="java.lang.String" itemvalue="Application.TestRunner" />
         <item index="3" class="java.lang.String" itemvalue="Application.FabsMain" />
-=======
-    <list>
-      <item itemvalue="Cucumber java.tests" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.FabsMain" />
-      <item itemvalue="Application.TestRunner" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TestRunner" />
-        <item itemvalue="Application.FabsMain" />
->>>>>>> master
       </list>
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
+    <option name="lastUpdateTimestamp" value="1527975182975" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -737,7 +720,6 @@
         </entry>
       </map>
     </option>
-<<<<<<< HEAD
     <option name="modificationStamps">
       <map>
         <entry key="$PROJECT_DIR$" value="4578395568000" />
@@ -746,8 +728,6 @@
         <entry key="$PROJECT_DIR$/project/plugins.sbt" value="3271755686" />
       </map>
     </option>
-=======
->>>>>>> master
     <option name="projectSyncType">
       <map>
         <entry key="$USER_HOME$/BasicAkkaHTTP" value="PREVIEW" />
@@ -758,6 +738,9 @@
         <entry key="$USER_HOME$/sample-akka-http-rest" value="PREVIEW" />
       </map>
     </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -814,29 +797,28 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
     <option name="totallyTimeSpent" value="21124000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="943" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="940" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285568" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3431604" sideWeight="0.41819292" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34201184" sideWeight="0.41819292" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14041515" sideWeight="0.48504272" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35023585" sideWeight="0.20879121" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.307783" sideWeight="0.7912088" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30769232" sideWeight="0.7912088" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4124424" sideWeight="0.497558" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4115566" sideWeight="0.497558" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32051283" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33943835" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -895,109 +877,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-=======
-    <option name="totallyTimeSpent" value="82000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="sbt" order="3" sideWeight="0.48504272" visible="true" weight="0.14346765" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.20879121" side_tool="true" weight="0.35023585" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.28667414" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.76495725" weight="0.39406347" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.41819292" weight="0.29948717" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7912088" weight="0.30666667" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32923076" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.497558" visible="true" weight="0.41230768" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2954823" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" weight="0.32900944" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.41819292" weight="0.33519554" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.20879121" side_tool="true" weight="0.35023585" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26904762" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.51495725" side_tool="true" weight="0.22100122" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32923076" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.76495725" weight="0.39406347" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.497558" weight="0.41321388" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="sbt" order="3" sideWeight="0.48504272" visible="true" weight="0.1404762" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" weight="0.32900944" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32946634" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7912088" weight="0.3083799" />
-      <window_info anchor="bottom" id="SBT Console" order="7" weight="0.3285568" />
-      <window_info anchor="right" id="CDI" order="4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info id="Designer" order="2" />
-    </layout>
-    <layout-to-restore>
-      <window_info anchor="bottom" id="Build" order="8" weight="0.28773585" />
-      <window_info id="Designer" order="3" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="SBT Console" order="9" weight="0.32946634" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46462265" />
-      <window_info anchor="right" id="sbt" order="4" sideWeight="0.48504272" visible="true" weight="0.0" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="13" />
-      <window_info id="Image Layers" order="5" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32900944" />
-      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15934066" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32946634" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.02240566" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.51495725" side_tool="true" weight="0.22100122" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3962264" />
->>>>>>> master
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1013,6 +892,7 @@
       </breakpoints-dialog>
       <option name="time" value="78" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -1069,150 +949,80 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-=======
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http_2.12/srcs/akka-http_2.12-10.1.1-sources.jar!/akka/http/scaladsl/server/directives/MiscDirectives.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/srcs/akka-http-core_2.12-10.1.1-sources.jar!/akka/http/scaladsl/model/headers/HttpCredentials.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.2-sources.jar!/scala/concurrent/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="213" column="54" selection-start-line="213" selection-start-column="54" selection-end-line="213" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
->>>>>>> master
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/jars/akka-http-core_2.12-10.1.1.jar!/akka/http/scaladsl/model/HttpRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="84" selection-start-line="35" selection-start-column="84" selection-end-line="35" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/srcs/akka-http-core_2.12-10.1.1-sources.jar!/akka/http/scaladsl/model/HttpEntity.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="228" column="6" selection-start-line="228" selection-start-column="6" selection-end-line="228" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/srcs/akka-http-core_2.12-10.1.1-sources.jar!/akka/http/scaladsl/model/HttpMessage.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-<<<<<<< HEAD
-          <caret line="361" column="41" lean-forward="false" selection-start-line="361" selection-start-column="41" selection-end-line="361" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReadMe.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-=======
-          <caret line="361" column="41" selection-start-line="361" selection-start-column="41" selection-end-line="361" selection-end-column="41" />
->>>>>>> master
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http_2.12/srcs/akka-http_2.12-10.1.1-sources.jar!/akka/http/scaladsl/server/directives/RouteDirectives.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+          <caret line="45" column="6" lean-forward="false" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-=======
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/invoke/LambdaForm.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
->>>>>>> master
     <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http_2.12/srcs/akka-http_2.12-10.1.1-sources.jar!/akka/http/scaladsl/server/Directive.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="114" column="8" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="8" />
+          <caret line="114" column="8" lean-forward="false" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/invoke/DirectMethodHandle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="282" selection-start-line="282" selection-end-line="282" />
+          <caret line="282" column="0" lean-forward="false" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http_2.12/srcs/akka-http_2.12-10.1.1-sources.jar!/akka/http/scaladsl/server/directives/BasicDirectives.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+          <caret line="58" column="16" lean-forward="false" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/info.cukes/cucumber-core/srcs/cucumber-core-1.2.4-sources.jar!/cucumber/runtime/RuntimeGlue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="747" selection-start-line="747" selection-end-line="747" />
+          <caret line="747" column="0" lean-forward="false" selection-start-line="747" selection-start-column="0" selection-end-line="747" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/io.reactivex/rxjava/srcs/rxjava-1.3.4-sources.jar!/rx/exceptions/OnErrorThrowable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
+          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.reactivecouchbase/reactivecouchbase-rs-core_2.12/srcs/reactivecouchbase-rs-core_2.12-1.2.1-sources.jar!/org/reactivecouchbase/rs/scaladsl/query.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/srcs/akka-http-core_2.12-10.1.1-sources.jar!/akka/http/scaladsl/util/FastFuture.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
+          <caret line="87" column="21" lean-forward="false" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/io.reactivex/rxjava/srcs/rxjava-1.3.4-sources.jar!/rx/internal/operators/OnSubscribeMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.reactivecouchbase/reactivecouchbase-rs-core_2.12/srcs/reactivecouchbase-rs-core_2.12-1.2.1-sources.jar!/org/reactivecouchbase/rs/scaladsl/utils.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1220,14 +1030,14 @@
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.2-sources.jar!/scala/concurrent/Future.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
-          <caret line="163" column="6" selection-start-line="163" selection-start-column="6" selection-end-line="163" selection-end-column="6" />
+          <caret line="163" column="6" lean-forward="false" selection-start-line="163" selection-start-column="6" selection-end-line="163" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http_2.12/srcs/akka-http_2.12-10.1.1-sources.jar!/akka/http/scaladsl/server/directives/FutureDirectives.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
-          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <caret line="33" column="6" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1235,31 +1045,19 @@
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.5-sources.jar!/org/scalatest/Matchers.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="6702" column="8" selection-start-line="6702" selection-start-column="8" selection-end-line="6702" selection-end-column="8" />
+          <caret line="6702" column="8" lean-forward="false" selection-start-line="6702" selection-start-column="8" selection-end-line="6702" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.reactivecouchbase/reactivecouchbase-rs-core_2.12/srcs/reactivecouchbase-rs-core_2.12-1.2.1-sources.jar!/org/reactivecouchbase/rs/scaladsl/settings.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-<<<<<<< HEAD
           <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.reactivecouchbase/reactivecouchbase-rs-core_2.12/srcs/reactivecouchbase-rs-core_2.12-1.2.1-sources.jar!/org/reactivecouchbase/rs/scaladsl/Bucket.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="729" column="3" lean-forward="false" selection-start-line="729" selection-start-column="3" selection-end-line="729" selection-end-column="3" />
-=======
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
->>>>>>> master
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/srcs/akka-http-core_2.12-10.1.1-sources.jar!/akka/http/scaladsl/model/MediaType.scala">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="189">
           <caret line="287" column="7" lean-forward="false" selection-start-line="287" selection-start-column="7" selection-end-line="287" selection-end-column="7" />
         </state>
@@ -1284,10 +1082,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-=======
-        <state relative-caret-position="148">
-          <caret line="729" column="3" selection-start-line="729" selection-start-column="3" selection-end-line="729" selection-end-column="3" />
->>>>>>> master
         </state>
       </provider>
     </entry>
@@ -1331,30 +1125,10 @@
     <entry file="jar://$USER_HOME$/.ivy2/cache/io.cucumber/cucumber-core/srcs/cucumber-core-2.0.1-sources.jar!/cucumber/api/cli/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="60">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-=======
-        <state relative-caret-position="189">
-          <caret line="287" column="7" selection-start-line="287" selection-start-column="7" selection-end-line="287" selection-end-column="7" />
->>>>>>> master
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.reactivecouchbase/reactivecouchbase-rs-core_2.12/srcs/reactivecouchbase-rs-core_2.12-1.2.1-sources.jar!/org/reactivecouchbase/rs/scaladsl/json/api.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -1373,7 +1147,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="42" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1389,66 +1162,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-=======
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/nk/crud/steps/TestRunner.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/CrudFeature.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
->>>>>>> master
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/docker/stage/Dockerfile" />
-    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="165">
           <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="e#27#62#0" expanded="false" />
-          </folding>
-=======
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/nk/crud/steps/StepDefinitions.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.softwaremill.akka-http-session/core_2.12/srcs/core_2.12-0.5.5-sources.jar!/com/softwaremill/session/SessionEncoder.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
->>>>>>> master
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/nk/crud/steps/StepDefinitions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="1795">
           <caret line="154" column="5" lean-forward="true" selection-start-line="154" selection-start-column="5" selection-end-line="154" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1457,115 +1184,17 @@
         <state relative-caret-position="90">
           <caret line="6" column="84" lean-forward="false" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="84" />
           <folding />
-=======
-        <state relative-caret-position="150">
-          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
->>>>>>> master
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.softwaremill.akka-http-session/core_2.12/srcs/core_2.12-0.5.5-sources.jar!/com/softwaremill/session/SessionSerializer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="276">
-          <caret line="86" column="58" lean-forward="false" selection-start-line="86" selection-start-column="58" selection-end-line="86" selection-end-column="58" />
-          <folding>
-            <element signature="e#26#68#0" expanded="true" />
-          </folding>
-=======
-        <state relative-caret-position="60">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.softwaremill.akka-http-session/core_2.12/srcs/core_2.12-0.5.5-sources.jar!/com/softwaremill/session/SessionManager.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Main.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http_2.12/srcs/akka-http_2.12-10.1.1-sources.jar!/akka/http/scaladsl/server/directives/MarshallingDirectives.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/crud/model/Activity.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.softwaremill.akka-http-session/core_2.12/srcs/core_2.12-0.5.5-sources.jar!/com/softwaremill/session/SessionConfig.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.softwaremill.akka-http-session/core_2.12/srcs/core_2.12-0.5.5-sources.jar!/com/softwaremill/session/CsrfDirectives.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/crud/model/Session.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.softwaremill.akka-http-session/core_2.12/srcs/core_2.12-0.5.5-sources.jar!/com/softwaremill/session/SessionDirectives.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
->>>>>>> master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Main.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-=======
-        <state relative-caret-position="54">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
->>>>>>> master
-          <folding>
-            <element signature="e#1#30#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1578,52 +1207,90 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="503" column="9" lean-forward="false" selection-start-line="503" selection-start-column="9" selection-end-line="503" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.reactivecouchbase/reactivecouchbase-rs-core_2.12/srcs/reactivecouchbase-rs-core_2.12-1.2.1-sources.jar!/org/reactivecouchbase/rs/scaladsl/Bucket.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9105">
+          <caret line="634" column="6" lean-forward="false" selection-start-line="634" selection-start-column="6" selection-end-line="634" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.couchbase.client/java-client/srcs/java-client-2.5.5-sources.jar!/com/couchbase/client/java/CouchbaseCluster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5130">
+          <caret line="394" column="26" lean-forward="false" selection-start-line="394" selection-start-column="26" selection-end-line="394" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.couchbase.client/java-client/srcs/java-client-2.5.5-sources.jar!/com/couchbase/client/java/cluster/BucketSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="40" column="11" lean-forward="false" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.couchbase.client/java-client/srcs/java-client-2.5.5-sources.jar!/com/couchbase/client/java/cluster/DefaultBucketSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="145" column="23" lean-forward="false" selection-start-line="145" selection-start-column="23" selection-end-line="145" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.couchbase.client/java-client/srcs/java-client-2.5.5-sources.jar!/com/couchbase/client/java/Cluster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3735">
+          <caret line="282" column="19" lean-forward="false" selection-start-line="282" selection-start-column="19" selection-end-line="282" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/crud/routes/CrudRoute.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
+        <state relative-caret-position="735">
           <caret line="61" column="40" lean-forward="false" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
           <folding>
             <element signature="e#29#100#0" expanded="true" />
           </folding>
-=======
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/nk/crud/repo/CouchbaseRepository.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="71" column="7" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+        <state relative-caret-position="106">
+          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding>
+            <element signature="e#26#69#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Main.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReadMe.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" selection-start-line="10" selection-end-line="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
->>>>>>> master
+        <state relative-caret-position="270">
+          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <element signature="e#1#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
